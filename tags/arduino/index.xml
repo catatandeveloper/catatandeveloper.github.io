@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arduino on Catatan Developer</title><link>http://localhost:1313/tags/arduino/</link><description>Recent content in Arduino on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 23:10:56 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Arduino IDE 2.* Pada Ubuntu</title><link>http://localhost:1313/cara-install-arduino2-pada-ubuntu/</link><pubDate>Mon, 09 Dec 2024 23:10:56 +0700</pubDate><guid>http://localhost:1313/cara-install-arduino2-pada-ubuntu/</guid><description>&lt;img src="http://localhost:1313/images/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+
+&lt;p>Arduino versi 2.* adalah IDE dengan versi yang sangat baik bagi pengembang elektronika, hal ini karena arduino v2 ini memiliki fitur-fitur yang sangat berguna bagi developer, berikut fitur-fitur Arduino v2 yang perlu kamu tau:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Editor Modern:&lt;/strong>
+Antarmuka lebih bersih, berbasis framework Eclipse Theia, dengan tema gelap/terang.&lt;/li>
+&lt;li>&lt;strong>Autocomplete dan IntelliSense:&lt;/strong>
+Mendukung pelengkapan kode otomatis dan informasi fungsi secara langsung, kamu bisa mengaktifkanya dengan mengklik check pada &lt;strong>Editor Quick Suggestions&lt;/strong> pada preferences&lt;/li>
+&lt;li>&lt;strong>Debugger Terintegrasi:&lt;/strong>
+Bisa melakukan debugging langsung untuk papan Arduino yang mendukung debugging hardware.&lt;/li>
+&lt;li>&lt;strong>Live Error Highlighting:&lt;/strong>
+Kesalahan dalam kode ditandai secara langsung.&lt;/li>
+&lt;li>&lt;strong>Kinerja Lebih Cepat:&lt;/strong>
+Waktu kompilasi dan pengunggahan ke board lebih efisien.&lt;/li>
+&lt;li>&lt;strong>Manajemen Library &amp;amp; Board yang Mudah:&lt;/strong>
+Antarmuka untuk menambah library atau board lebih intuitif.&lt;/li>
+&lt;li>&lt;strong>Terminal Serial yang Ditingkatkan:&lt;/strong>
+Terminal serial sekarang mendukung multitasking dan visualisasi lebih baik.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Berikut langkah-langkah instalasi arduino ide v2:&lt;/strong>&lt;/p></description></item></channel></rss>
