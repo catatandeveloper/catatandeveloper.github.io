@@ -3,7 +3,4 @@
 &lt;p>LAMP merupakan kepanjangan dari Linux, Apache, Mysql , Perl/PHP/Python. Merupakan sebuah paket perangkat lunak bebas yang digunakan untuk menjalankan sebuah aplikasi secara lengkap.&lt;/p>
 &lt;p>Kegunaan dari LAMP sendiri adalah sebagai server yang mudah di gunakan untuk pemula, yaitu sama seperti XAMP pada windows dan MAMP pada mac.&lt;/p>
 &lt;p>Pada kesempatan ini kita akan melakukan instalasi lamp dengan menggunakan terminal pada linux
-hal yang harus di siapkan antara lain:
-ubuntu versi 16.04 / 18.^
-internet.
-Di tutorial kali ini kita akan menggunakan ubuntu 16.04, jika teman-teman menggunakan versi 18.^ akan lebih mudah, ini dikarenakan versi php sudah mendukung versi 7.2, sedangkan jika kita menggunakan ubuntu 16.04 maka default yang di install adalah php versi 7.0.&lt;/p></description></item></channel></rss>
+hal yang harus di siapkan antara lain:&lt;/p></description></item></channel></rss>
