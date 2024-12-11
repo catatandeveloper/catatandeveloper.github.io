@@ -5,7 +5,8 @@
 &lt;li>&lt;strong>Editor Modern:&lt;/strong>
 Antarmuka lebih bersih, berbasis framework Eclipse Theia, dengan tema gelap/terang.&lt;/li>
 &lt;li>&lt;strong>Autocomplete dan IntelliSense:&lt;/strong>
-Mendukung pelengkapan kode otomatis dan informasi fungsi secara langsung, kamu bisa mengaktifkanya dengan mengklik check pada &lt;strong>Editor Quick Suggestions&lt;/strong> pada preferences&lt;/li>
+Mendukung pelengkapan kode otomatis dan informasi fungsi secara langsung, kamu bisa mengaktifkanya dengan mengklik check pada&lt;/li>
+&lt;li>&lt;strong>Editor Quick Suggestions&lt;/strong> pada preferences&lt;/li>
 &lt;li>&lt;strong>Debugger Terintegrasi:&lt;/strong>
 Bisa melakukan debugging langsung untuk papan Arduino yang mendukung debugging hardware.&lt;/li>
 &lt;li>&lt;strong>Live Error Highlighting:&lt;/strong>
