@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elektronik on Catatan Developer</title><link>https://catatandeveloper.id/categories/elektronik/</link><description>Recent content in Elektronik on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 17 Dec 2024 22:31:42 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/elektronik/index.xml" rel="self" type="application/rss+xml"/><item><title>Pengenalan Arduino</title><link>https://catatandeveloper.id/pengenalan-arduino/</link><pubDate>Tue, 17 Dec 2024 22:31:42 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-arduino/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elektronik on Catatan Developer</title><link>https://catatandeveloper.id/categories/elektronik/</link><description>Recent content in Elektronik on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Dec 2024 00:54:55 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/elektronik/index.xml" rel="self" type="application/rss+xml"/><item><title>Memulai Arduino</title><link>https://catatandeveloper.id/memulai-arduino/</link><pubDate>Thu, 19 Dec 2024 00:54:55 +0700</pubDate><guid>https://catatandeveloper.id/memulai-arduino/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Sebelum kita membahas arduino ada baiknya kamu mempelajari tentang c++ &lt;a href="https://catatandeveloper.id/tutorial/c++/">disini&lt;/a> terlebih dahulu biar lebih mudah untuk memahaminya.&lt;/p>
+&lt;h3 id="arduino-ide">Arduino IDE&lt;/h3>
+&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/arduino/empty.png" alt="Penjelasan Gambar" style="max-width: 600px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>pada gambar diatas bisa dilihat bahwa arduino memiliki default function setup dan loop.&lt;/p>
+&lt;ul>
+&lt;li>void setup() digunakan untuk melakukan inisialisi program seperti sensor, servo maupun komponen lain seperti lcd.&lt;/li>
+&lt;li>void loop() digunakan untuk menjalakan program terus menerus secara tak hingga, ini berarti selama arduino menyala maka program loop akan berjalan&lt;/li>
+&lt;/ul>
+&lt;h3 id="contoh-program">Contoh Program&lt;/h3>
+&lt;p>mari kita coba untuk melakukan program sederhana di arduino dengan menyalakan lampu LED yang tertanam pada arduino&lt;/p></description></item><item><title>Pengenalan Arduino</title><link>https://catatandeveloper.id/pengenalan-arduino/</link><pubDate>Tue, 17 Dec 2024 22:31:42 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-arduino/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
