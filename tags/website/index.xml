@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website on Catatan Developer</title><link>https://catatandeveloper.id/tags/website/</link><description>Recent content in Website on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 20 Dec 2024 00:29:58 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/website/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Postgresql Ubuntu</title><link>https://catatandeveloper.id/cara-install-postgresql-ubuntu/</link><pubDate>Fri, 20 Dec 2024 00:29:58 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-postgresql-ubuntu/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/issue/postgres.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>PostgreSQL adalah salah satu sistem manajemen basis data relasional (RDBMS) open-source yang paling populer dan kuat. Jika Anda sedang mengembangkan aplikasi yang memerlukan penyimpanan data, PostgreSQL adalah pilihan yang sangat baik. Pada artikel ini, kita akan membahas cara menginstal PostgreSQL di sistem operasi Ubuntu.&lt;/p>
+&lt;h3 id="instalasi">Instalasi&lt;/h3>
+&lt;h5 id="perbarui-sistem-ubuntu">perbarui sistem ubuntu&lt;/h5>
+&lt;p>Sebelum menginstal perangkat lunak baru, pastikan sistem kamu diperbarui. Buka terminal dan jalankan perintah berikut untuk memperbarui sistem kamu.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ sudo apt update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sudo apt upgrade&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Cara Ampuh Untuk Menghapus Mysql Di Linux</title><link>https://catatandeveloper.id/cara-ampuh-untuk-menghapus-mysql-di-linux/</link><pubDate>Mon, 09 Dec 2024 18:39:20 +0700</pubDate><guid>https://catatandeveloper.id/cara-ampuh-untuk-menghapus-mysql-di-linux/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/issue/mysql.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Dalam keadaan tertentu mysql sering membuat aplikasi lain mengalami kegagalan atau pada saat melakukan instalasi lamp sering terjadi kesalahan yang mengharuskan kita menginstall ulang mysql. sebelum melakukan instalasi ulang kita sering mengalami kegagalan saat instalasi ini diakibatkan cara menghapus mysql kita yang belum sepenuhnya berhasil.&lt;/p>
+&lt;p>berikut adalah cara jitu menghapus mysql di ubuntu:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ sudo apt-get remove --purge mysql-\* &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>sebenarnya dengan kita melakukan perintah di atas kita sudah mengahapus instalan mysql pada ubuntu kita, akan tetapi kadang masih ada yang tersisa, jadi lebih baik kita check terlebih dahulu dengan perintah berikut:
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ dpkg -l | grep mysql&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Cara Install Lamp Pada Ubuntu 16.04/18.04/latest</title><link>https://catatandeveloper.id/cara-install-lamp-pada-ubuntu18/</link><pubDate>Mon, 09 Dec 2024 16:37:52 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-lamp-pada-ubuntu18/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/lamp/lamp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>LAMP merupakan kepanjangan dari Linux, Apache, Mysql , Perl/PHP/Python. Merupakan sebuah paket perangkat lunak bebas yang digunakan untuk menjalankan sebuah aplikasi secara lengkap.&lt;/p>
+&lt;p>Kegunaan dari LAMP sendiri adalah sebagai server yang mudah di gunakan untuk pemula, yaitu sama seperti XAMP pada windows dan MAMP pada mac.&lt;/p>
+&lt;p>Pada kesempatan ini kita akan melakukan instalasi lamp dengan menggunakan terminal pada linux
+hal yang harus di siapkan antara lain:&lt;/p></description></item></channel></rss>

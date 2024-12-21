@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pemrograman on Catatan Developer</title><link>https://catatandeveloper.id/tags/pemrograman/</link><description>Recent content in Pemrograman on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Dec 2024 00:26:58 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/pemrograman/index.xml" rel="self" type="application/rss+xml"/><item><title>Input Output C++</title><link>https://catatandeveloper.id/input-output-c++/</link><pubDate>Thu, 19 Dec 2024 00:26:58 +0700</pubDate><guid>https://catatandeveloper.id/input-output-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Dalam bahasa pemrograman C++, input dan output adalah dua operasi dasar yang sering digunakan untuk berinteraksi dengan pengguna atau perangkat lain. Operasi ini biasanya dilakukan dengan menggunakan standar library iostream yang menyediakan fungsionalitas untuk membaca data (input) dan menulis data (output).&lt;/p>
+&lt;h3 id="input-dan-output">Input dan Output&lt;/h3>
+&lt;p>sederhananya input adalah masukan yang diterima dari terminal sehingga datanya bisa diolah di dalam kode, sedangkan output adalah data keluaran yang di tampilkan di terminal, berikut contoh input dan output:&lt;/p></description></item><item><title>Variable C++</title><link>https://catatandeveloper.id/variable-c++/</link><pubDate>Tue, 17 Dec 2024 23:13:16 +0700</pubDate><guid>https://catatandeveloper.id/variable-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>variabel adalah wadah atau tempat untuk menyimpan data sementara dalam memori komputer. Ketika program dijalankan, variabel menyimpan nilai yang bisa digunakan dalam operasi dan perhitungan. Variabel ini memiliki nama, tipe data, dan nilai.&lt;/p>
+&lt;h3 id="tipe-data-variabel-di-c">Tipe Data Variabel di C++&lt;/h3>
+&lt;div class="table-responsive">
+ &lt;table>
+ 
+&lt;tr>
+ &lt;th>Key&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Size&lt;/th>
+ &lt;th>Range&lt;/th>
+&lt;/tr>
+&lt;tr>
+ &lt;td>int&lt;/td>
+ &lt;td>integer&lt;/td>
+ &lt;td>bilangan bulat&lt;/td>
+ &lt;td>4 byte&lt;/td>
+ &lt;td>-2147483648 - 2147483647&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>char&lt;/td>
+ &lt;td>character&lt;/td>
+ &lt;td>sebuah huruf&lt;/td>
+ &lt;td>1 byte&lt;/td>
+ &lt;td>-128 - 127 atau 0 to 255 (jika unsigned)&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>bool&lt;/td>
+ &lt;td>boolean&lt;/td>
+ &lt;td>logika true dan false&lt;/td>
+ &lt;td>1 byte&lt;/td>
+ &lt;td>1 atau 0&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>float&lt;/td>
+ &lt;td>floating&lt;/td>
+ &lt;td>bilangan desimal&lt;/td>
+ &lt;td>4 byte&lt;/td>
+ &lt;td>±3.4 × 10^38, 6-9 digit&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>void&lt;/td>
+ &lt;td>void&lt;/td>
+ &lt;td>tanpa nilai&lt;/td>
+ &lt;td>4 byte disistem 32 bit, dan 8 byte di disistem 64 bit&lt;/td>
+ &lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>double&lt;/td>
+ &lt;td>double&lt;/td>
+ &lt;td>menambah size untuk float&lt;/td>
+ &lt;td>8 byte di sistem 64 bit&lt;/td>
+ &lt;td>±1.7 × 10^308, 15-17 digit&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>long&lt;/td>
+ &lt;td>long&lt;/td>
+ &lt;td>menambah size pada bilangan bulat&lt;/td>
+ &lt;td>4 byte disistem 32 bit, dan 8 byte di disistem 64 bit&lt;/td>
+ &lt;td>-2147483648 - 2147483647&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>unsigned&lt;/td>
+ &lt;td>unsigned&lt;/td>
+ &lt;td>menyimpan non negatif&lt;/td>
+ &lt;td>4 byte&lt;/td>
+ &lt;td> 0 hingga 4,294,967,295&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>std::string&lt;/td>
+ &lt;td>string&lt;/td>
+ &lt;td>kumpulan dari karakter&lt;/td>
+ &lt;td>jumlah char&lt;/td>
+ &lt;td>-&lt;/td>
+&lt;/tr>
+
+ &lt;/table>
+&lt;/div>
+
+&lt;hr>
+&lt;h3 id="contoh-deklarasi-variabel-di-c">Contoh deklarasi variabel di C++:&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> number; &lt;span style="color:#75715e">// deklarasi variabel bertipe integer
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> number &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>; &lt;span style="color:#75715e">// menetapkan nilai 5 pada variabel
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>Pada contoh di atas, variabel &amp;ldquo;number&amp;rdquo; dideklarasikan dengan tipe data int (integer), yang berarti hanya dapat menyimpan bilangan bulat. Kemudian, variabel &amp;ldquo;number&amp;rdquo; diberi nilai 5.&lt;/p></description></item><item><title>Memulai C++</title><link>https://catatandeveloper.id/memulai-c++/</link><pubDate>Tue, 17 Dec 2024 22:53:56 +0700</pubDate><guid>https://catatandeveloper.id/memulai-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Sebelum kita membahas yang lain, kita perlu mencoba jalankan c++ terlebih dahulu untuk memastikan c++ berjalan di komputer kita dengan baik.&lt;/p>
+&lt;p>dimateri tentang c++ ini kami akan menggunakan OS linux, jika kalian menggunakan windows dan melakukan instalasi seperti dimateri kami maka caranya akan sama saja ya.&lt;/p>
+&lt;p>mari mencoba dengan menuliskan &amp;ldquo;Hello world&amp;rdquo; seperti kode berikut:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello World&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> std&lt;span style="color:#f92672">::&lt;/span>endl;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>compile kode c++ dengan cara:
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ g++ main.cpp&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Instalasi C++</title><link>https://catatandeveloper.id/instalasi-c++/</link><pubDate>Sun, 15 Dec 2024 22:00:10 +0700</pubDate><guid>https://catatandeveloper.id/instalasi-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>C++ merupakan bahasa pemrograman yang multiplatform sehingga bisa di install di semua sistem operasi, seperti windows, linux, mac dan juga bsd. Berikut instalasi c++ pada windows dan linux.&lt;/p>
+&lt;h3 id="windows">Windows&lt;/h3>
+&lt;p>MinGW adalah kompiler C/C++ asli (GCC) yang memiliki pustaka yang dapat didistribusikan secara gratis untuk membangun aplikasi diWindows. Dalam pembelajaran ini kita akan menggunakan MinGW sebagai compiler pemrograman kita.&lt;/p></description></item><item><title>Pengenalan C++</title><link>https://catatandeveloper.id/pengenalan-c++/</link><pubDate>Sun, 15 Dec 2024 21:03:04 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>C++ adalah salah satu bahasa pemrograman yang paling populer dan banyak digunakan di dunia. Dikembangkan oleh &lt;strong>Bjarne Stroustrup&lt;/strong> pada awal 1980-an di Bell Labs, C++ merupakan bahasa pemrograman yang memiliki kekuatan besar dalam hal fleksibilitas, efisiensi, dan kemampuan untuk mengelola sumber daya komputer secara langsung. C++ adalah pengembangan dari bahasa C, dengan menambahkan konsep objek dan pemrograman berorientasi objek (OOP).&lt;/p></description></item></channel></rss>
