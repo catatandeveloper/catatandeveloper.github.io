@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pemrograman on Catatan Developer</title><link>https://catatandeveloper.id/tags/pemrograman/</link><description>Recent content in Pemrograman on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Dec 2024 00:26:58 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/pemrograman/index.xml" rel="self" type="application/rss+xml"/><item><title>Input Output C++</title><link>https://catatandeveloper.id/input-output-c++/</link><pubDate>Thu, 19 Dec 2024 00:26:58 +0700</pubDate><guid>https://catatandeveloper.id/input-output-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pemrograman on Catatan Developer</title><link>https://catatandeveloper.id/tags/pemrograman/</link><description>Recent content in Pemrograman on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Jan 2025 22:47:12 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/pemrograman/index.xml" rel="self" type="application/rss+xml"/><item><title>Operator C++</title><link>https://catatandeveloper.id/operator-c++/</link><pubDate>Fri, 03 Jan 2025 22:47:12 +0700</pubDate><guid>https://catatandeveloper.id/operator-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Operator adalah simbol atau karakter khusus yang digunakan dalam pemrograman untuk melakukan operasi tertentu. Dalam bahasa C++, operator digunakan untuk memanipulasi data dan variabel. Artikel ini akan membahas berbagai jenis operator dalam C++ beserta contohnya.&lt;/p>
+&lt;h3 id="jenis-jenis-operator-di-c">Jenis-jenis Operator di C++&lt;/h3>
+&lt;h4 id="operator-aritmatika">Operator Aritmatika&lt;/h4>
+&lt;p>Operator ini digunakan untuk melakukan operasi matematika seperti penjumlahan, pengurangan, perkalian, pembagian, dan modulus.&lt;/p>
+&lt;div class="table-responsive">
+ &lt;table>
+ 
+
+&lt;tr>
+ &lt;th>Operator&lt;/th>
+ &lt;th>Deskripsi&lt;/th>
+ &lt;th>Contoh&lt;/th>
+&lt;/tr>
+&lt;tr>
+ &lt;td>+&lt;/td>
+ &lt;td>Penjumlahan&lt;/td>
+ &lt;td>a + b &lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>-&lt;/td>
+ &lt;td>Pengurangan&lt;/td>
+ &lt;td>a - b &lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>*&lt;/td>
+ &lt;td>Perkalian&lt;/td>
+ &lt;td>a * b &lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>/&lt;/td>
+ &lt;td>Pembagian&lt;/td>
+ &lt;td>a / b &lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>%&lt;/td>
+ &lt;td>Modulus&lt;/td>
+ &lt;td>a % b &lt;/td>
+&lt;/tr>
+
+
+ &lt;/table>
+&lt;/div>
+
+&lt;p> &lt;/p></description></item><item><title>Input Output C++</title><link>https://catatandeveloper.id/input-output-c++/</link><pubDate>Thu, 19 Dec 2024 00:26:58 +0700</pubDate><guid>https://catatandeveloper.id/input-output-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
