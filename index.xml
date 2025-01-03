@@ -45,7 +45,18 @@
  &lt;/table>
 &lt;/div>
 
-&lt;p> &lt;/p></description></item><item><title>Tutorial Membuat USB Bootable Menggunakan Rufus</title><link>https://catatandeveloper.id/tutorial-membuat-usb-bootable-menggunakan-rufus/</link><pubDate>Sat, 21 Dec 2024 23:18:00 +0700</pubDate><guid>https://catatandeveloper.id/tutorial-membuat-usb-bootable-menggunakan-rufus/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+&lt;p> &lt;/p></description></item><item><title>Cara Non-Aktifkan Windows Update Otomatis</title><link>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</link><pubDate>Fri, 03 Jan 2025 21:55:20 +0700</pubDate><guid>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/windows/windows-update.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Windows Update otomatis di Windows 10 adalah fitur bawaan yang dirancang untuk memastikan sistem operasi selalu diperbarui dengan patch keamanan terbaru, pembaruan perangkat lunak, dan perbaikan bug. Dengan fitur ini, Windows secara otomatis mengunduh dan menginstal pembaruan tanpa memerlukan intervensi pengguna.&lt;/p>
+&lt;p>&lt;strong>Keuntungan Windows Update Otomatis:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Keamanan Terjaga: Patch keamanan diterapkan segera setelah dirilis, melindungi sistem dari ancaman terbaru&lt;/li>
+&lt;li>Performa Optimal: Pembaruan sering kali mencakup peningkatan kinerja dan perbaikan bug.&lt;/li>
+&lt;li>Kompatibilitas Perangkat: Pembaruan driver membantu memastikan perangkat keras bekerja dengan baik.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Kekurangan Windows Update Otomatis:&lt;/strong>&lt;/p></description></item><item><title>Tutorial Membuat USB Bootable Menggunakan Rufus</title><link>https://catatandeveloper.id/tutorial-membuat-usb-bootable-menggunakan-rufus/</link><pubDate>Sat, 21 Dec 2024 23:18:00 +0700</pubDate><guid>https://catatandeveloper.id/tutorial-membuat-usb-bootable-menggunakan-rufus/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/instalasiOS/rufus/rufus.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
