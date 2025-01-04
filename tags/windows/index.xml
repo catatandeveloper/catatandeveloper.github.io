@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/tags/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Jan 2025 21:55:20 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Non-Aktifkan Windows Update Otomatis</title><link>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</link><pubDate>Fri, 03 Jan 2025 21:55:20 +0700</pubDate><guid>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/tags/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 04 Jan 2025 22:44:57 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Penjelasan DxDiag Dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-dxdiag-dan-cara-menggunakannya/</link><pubDate>Sat, 04 Jan 2025 22:44:57 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-dxdiag-dan-cara-menggunakannya/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/windows/dxdiag.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>DxDiag adalah singkatan dari DirectX Diagnostic Tool, sebuah alat bawaan Windows yang digunakan untuk mendiagnosis dan memecahkan masalah yang berkaitan dengan DirectX. DirectX adalah kumpulan antarmuka pemrograman aplikasi (API) yang dikembangkan oleh Microsoft, yang berfungsi untuk mengelola tugas-tugas multimedia seperti grafis game dan pemutaran video.&lt;/p>
+&lt;h2 id="__fungsi-dxdiag__">&lt;strong>Fungsi DxDiag&lt;/strong>&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Informasi Sistem.
+DxDiag memberikan rincian tentang spesifikasi sistem Anda, termasuk:
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>- Versi sistem operasi.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Prosesor (CPU).
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Memori (RAM).
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Informasi komputer (nama dan model).&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Cara Non-Aktifkan Windows Update Otomatis</title><link>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</link><pubDate>Fri, 03 Jan 2025 21:55:20 +0700</pubDate><guid>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/windows/windows-update.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
