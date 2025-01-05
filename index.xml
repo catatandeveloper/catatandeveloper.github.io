@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Catatan Developer</title><link>https://catatandeveloper.id/</link><description>Recent content on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 13:52:39 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Function C++</title><link>https://catatandeveloper.id/function-c++/</link><pubDate>Sun, 05 Jan 2025 13:52:39 +0700</pubDate><guid>https://catatandeveloper.id/function-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Catatan Developer</title><link>https://catatandeveloper.id/</link><description>Recent content on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 15:45:13 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Penjelasan Regedit dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</link><pubDate>Sun, 05 Jan 2025 15:45:13 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/windows/regedit.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Regedit adalah singkatan dari Registry Editor, sebuah alat di Windows yang digunakan untuk melihat, mengedit, atau mengelola entri-entri dalam Windows Registry. Windows Registry adalah basis data hierarkis yang menyimpan pengaturan dan konfigurasi sistem operasi, perangkat keras, perangkat lunak, dan akun pengguna.&lt;/p>
+&lt;h2 id="__fungsi-utama-regedit__">&lt;strong>Fungsi Utama Regedit&lt;/strong>&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Melihat dan Mengedit Pengaturan Sistem:
+Digunakan untuk mengubah pengaturan sistem yang tidak tersedia melalui antarmuka grafis (GUI).&lt;/p></description></item><item><title>Function C++</title><link>https://catatandeveloper.id/function-c++/</link><pubDate>Sun, 05 Jan 2025 13:52:39 +0700</pubDate><guid>https://catatandeveloper.id/function-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
