@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Catatan Developer</title><link>https://catatandeveloper.id/</link><description>Recent content on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 15:45:13 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Penjelasan Regedit dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</link><pubDate>Sun, 05 Jan 2025 15:45:13 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Catatan Developer</title><link>https://catatandeveloper.id/</link><description>Recent content on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 16:30:34 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Penjelasan Diskpart Dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-diskpart-dan-cara-menggunakannya/</link><pubDate>Sun, 05 Jan 2025 16:30:34 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-diskpart-dan-cara-menggunakannya/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/windows/diskpart.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Diskpart adalah utilitas baris perintah bawaan Windows yang digunakan untuk mengelola disk, partisi, dan volume. Alat ini lebih kuat dibandingkan Disk Management GUI karena memberikan akses langsung ke fungsi manajemen disk tingkat rendah.&lt;/p>
+&lt;h2 id="__fungsi-diskpart__">&lt;strong>Fungsi Diskpart&lt;/strong>&lt;/h2>
+&lt;div class="table-responsive">
+ &lt;table>
+ 
+&lt;tr>
+ &lt;th>Fungsi&lt;/th>
+ &lt;th>Deskripsi&lt;/th>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Membuat Partisi&lt;/td>
+ &lt;td>Membagi disk menjadi beberapa bagian (partisi).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Menghapus Partisi&lt;/td>
+ &lt;td>Menghapus data dan struktur partisi dari disk.&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Memformat Disk/Partisi&lt;/td>
+ &lt;td>Mengatur file system seperti NTFS, FAT32, atau exFAT.&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Mengubah Atribut Disk&lt;/td>
+ &lt;td>Mengelola atribut, seperti menjadikan partisi aktif, mengatur read-only, atau atribut lainnya.&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Membersihkan Disk&lt;/td>
+ &lt;td>Menghapus seluruh data, termasuk partisi dan struktur disk (mengembalikan ke keadaan kosong).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Mengkonversi Format Disk&lt;/td>
+ &lt;td>Mengubah format disk antara GPT (GUID Partition Table) dan MBR (Master Boot Record).&lt;/td>
+&lt;/tr>
+
+ &lt;/table>
+&lt;/div>
+
+&lt;p> &lt;/p></description></item><item><title>Penjelasan Regedit dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</link><pubDate>Sun, 05 Jan 2025 15:45:13 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/windows/regedit.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
