@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pemrograman on Catatan Developer</title><link>https://catatandeveloper.id/categories/pemrograman/</link><description>Recent content in Pemrograman on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2025 23:28:02 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/pemrograman/index.xml" rel="self" type="application/rss+xml"/><item><title>Modifier Dan Qualifier C++</title><link>https://catatandeveloper.id/modifier-dan-qualifier-c++/</link><pubDate>Fri, 10 Jan 2025 23:28:02 +0700</pubDate><guid>https://catatandeveloper.id/modifier-dan-qualifier-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pemrograman on Catatan Developer</title><link>https://catatandeveloper.id/categories/pemrograman/</link><description>Recent content in Pemrograman on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 11 Jan 2025 23:28:05 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/pemrograman/index.xml" rel="self" type="application/rss+xml"/><item><title>User-Defined Data Type (UDT)</title><link>https://catatandeveloper.id/user-defined-data-type-udt/</link><pubDate>Sat, 11 Jan 2025 23:28:05 +0700</pubDate><guid>https://catatandeveloper.id/user-defined-data-type-udt/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>User-Defined Data Type (UDT) adalah fitur yang sangat penting dalam bahasa pemrograman C++, yang memungkinkan pengembang untuk mendefinisikan tipe data mereka sendiri sesuai dengan kebutuhan. Dengan UDT, Anda dapat menyusun data yang kompleks dan merepresentasikan entitas dalam kode Anda.&lt;/p>
+&lt;p>Artikel ini akan membahas konsep dasar UDT di C++, jenis-jenis UDT, dan contoh implementasinya.&lt;/p>
+&lt;h3 id="1-apa-itu-user-defined-data-type-udt">1. Apa itu User-Defined Data Type (UDT)?&lt;/h3>
+&lt;p>UDT adalah tipe data yang didefinisikan oleh pengguna untuk melengkapi atau memperluas tipe data bawaan (built-in) seperti int, float, dan char. Dengan UDT, Anda dapat membuat struktur data yang lebih kompleks, seperti objek, vektor, matriks, atau bahkan tipe data khusus untuk aplikasi tertentu.&lt;/p></description></item><item><title>Array Dan String C++</title><link>https://catatandeveloper.id/array-dan-string-c++/</link><pubDate>Sat, 11 Jan 2025 23:09:15 +0700</pubDate><guid>https://catatandeveloper.id/array-dan-string-c++/</guid><description>&lt;p>&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+Dalam bahasa pemrograman C++, array dan string adalah dua tipe data penting yang sering digunakan untuk menyimpan dan memanipulasi data. Artikel ini akan membahas dasar-dasar array dan string serta cara penggunaannya dalam C++.&lt;/p>
+&lt;h3 id="1-array">1. Array&lt;/h3>
+&lt;p>Array adalah kumpulan elemen yang memiliki tipe data yang sama dan disimpan dalam memori secara berurutan. Array sering digunakan ketika kita ingin menyimpan beberapa nilai dengan tipe yang sama.&lt;/p></description></item><item><title>Modifier Dan Qualifier C++</title><link>https://catatandeveloper.id/modifier-dan-qualifier-c++/</link><pubDate>Fri, 10 Jan 2025 23:28:02 +0700</pubDate><guid>https://catatandeveloper.id/modifier-dan-qualifier-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
@@ -251,8 +264,15 @@ Perulangan (looping) adalah salah satu konsep penting dalam pemrograman, termasu
 &lt;/div>
 
 &lt;p>C++ merupakan bahasa pemrograman yang multiplatform sehingga bisa di install di semua sistem operasi, seperti windows, linux, mac dan juga bsd. Berikut instalasi c++ pada windows dan linux.&lt;/p>
-&lt;h3 id="windows">Windows&lt;/h3>
-&lt;p>MinGW adalah kompiler C/C++ asli (GCC) yang memiliki pustaka yang dapat didistribusikan secara gratis untuk membangun aplikasi diWindows. Dalam pembelajaran ini kita akan menggunakan MinGW sebagai compiler pemrograman kita.&lt;/p></description></item><item><title>Pengenalan C++</title><link>https://catatandeveloper.id/pengenalan-c++/</link><pubDate>Sun, 15 Dec 2024 21:03:04 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
+&lt;h3 id="alur-pemrograman">Alur Pemrograman&lt;/h3>
+&lt;div style="display: flex; justify-content: center; align-items: center;">
+ &lt;img src="https://catatandeveloper.id/images/cpp/flow.png" alt="Penjelasan Gambar" style="max-width: 460px; width: 100%; height: auto;" class="my-3 rounded">
+&lt;/div>
+
+&lt;p>Alur dari pemrograman c++ adalah:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>kita membuat atau mengedit kode menggunakan kode editor, bisa menggunakan nano, vim, notepad++, vs code, atau kode editor lain sesuai yang kalian suka.&lt;/p></description></item><item><title>Pengenalan C++</title><link>https://catatandeveloper.id/pengenalan-c++/</link><pubDate>Sun, 15 Dec 2024 21:03:04 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-c++/</guid><description>&lt;div style="display: flex; justify-content: center; align-items: center;">
  &lt;img src="https://catatandeveloper.id/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded">
 &lt;/div>
 
