@@ -81,7 +81,7 @@
 &lt;/div>
 
 &lt;ul>
-&lt;li>pada tampilan diatas jika kalian memilih default git akan mengkonvert end of line atau &amp;ldquo;enter&amp;rdquo; menjadi CRLF, ini akan merusak file jika format sebelumnya berbeda, hal ini berpengaruh berganti-ganti OS, contoh Windows dan Mac, karena secara default format file EOF mereka berbeda, jadi perlu di perhatikan untuk memilih opsi ini&lt;/li>
+&lt;li>pada tampilan diatas jika kalian memilih default git akan mengkonvert end of line atau &amp;ldquo;enter&amp;rdquo; menjadi CRLF, ini akan merusak file jika format sebelumnya berbeda, hal ini berpengaruh jika kamu berganti-ganti OS, contoh Windows ke Mac, karena secara default format file EOF mereka berbeda, jadi perlu di perhatikan untuk memilih opsi ini&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/git/11.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
