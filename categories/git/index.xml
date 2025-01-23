@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Catatan Developer</title><link>https://catatandeveloper.id/categories/git/</link><description>Recent content in Git on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2025 23:00:16 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Pengenalan Tentang Git</title><link>https://catatandeveloper.id/pengenalan-tentang-git/</link><pubDate>Sun, 19 Jan 2025 23:00:16 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-tentang-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Catatan Developer</title><link>https://catatandeveloper.id/categories/git/</link><description>Recent content in Git on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Jan 2025 00:15:09 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Instalasi Git</title><link>https://catatandeveloper.id/instalasi-git/</link><pubDate>Fri, 24 Jan 2025 00:15:09 +0700</pubDate><guid>https://catatandeveloper.id/instalasi-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Git adalah salah satu sistem kontrol versi yang paling populer di kalangan developer. Dengan Git, Anda dapat melacak perubahan kode, bekerja secara kolaboratif, dan mengelola proyek dengan lebih baik. Dalam tutorial ini, kita akan membahas langkah-langkah instalasi Git di Windows, Linux dan Mac.&lt;/p>
+&lt;h3 id="instalasi-git-di-windows">Instalasi Git di Windows&lt;/h3>
+&lt;h5 id="download-git">Download Git&lt;/h5>
+&lt;ul>
+&lt;li>Kunjungi situs resmi &lt;a href="https://git-scm.com/downloads">Git for Windows&lt;/a>.&lt;/li>
+&lt;li>Klik tombol Download untuk mendapatkan installer.&lt;/li>
+&lt;/ul>
+&lt;h5 id="instalasi">Instalasi&lt;/h5>
+&lt;ul>
+&lt;li>klik 2 kali pada file git&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/1.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/2.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>pilih lokasi folder yang di inginkan kemundian klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/3.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>checklist additional icons on the desktop klik next, ini bersifat opsional&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/4.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/5.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/6.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/7.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/8.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/9.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/10.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>pada tampilan diatas jika kalian memilih default git akan mengkonvert end of line atau &amp;ldquo;enter&amp;rdquo; menjadi CRLF, ini akan merusak file jika format sebelumnya berbeda, hal ini berpengaruh berganti-ganti OS, contoh Windows dan Mac, karena secara default format file EOF mereka berbeda, jadi perlu di perhatikan untuk memilih opsi ini&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/11.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/12.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/13.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/14.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik next&lt;/li>
+&lt;/ul>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/git/15.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;ul>
+&lt;li>klik install&lt;/li>
+&lt;/ul>
+&lt;h3 id="instalasi-git-di-linux">Instalasi Git di Linux&lt;/h3>
+&lt;p>di linux kamu cukup mengetikan satu perintah seperti berikut:&lt;/p></description></item><item><title>Pengenalan Tentang Git</title><link>https://catatandeveloper.id/pengenalan-tentang-git/</link><pubDate>Sun, 19 Jan 2025 23:00:16 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-tentang-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
