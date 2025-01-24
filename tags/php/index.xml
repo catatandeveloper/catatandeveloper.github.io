@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Php on Catatan Developer</title><link>https://catatandeveloper.id/tags/php/</link><description>Recent content in Php on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 16:37:52 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Lamp Pada Ubuntu 16.04/18.04/latest</title><link>https://catatandeveloper.id/cara-install-lamp-pada-ubuntu18/</link><pubDate>Mon, 09 Dec 2024 16:37:52 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-lamp-pada-ubuntu18/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/lamp/lamp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
-
-&lt;p>LAMP merupakan kepanjangan dari Linux, Apache, Mysql , Perl/PHP/Python. Merupakan sebuah paket perangkat lunak bebas yang digunakan untuk menjalankan sebuah aplikasi secara lengkap.&lt;/p>
-&lt;p>Kegunaan dari LAMP sendiri adalah sebagai server yang mudah di gunakan untuk pemula, yaitu sama seperti XAMP pada windows dan MAMP pada mac.&lt;/p>
-&lt;p>Pada kesempatan ini kita akan melakukan instalasi lamp dengan menggunakan terminal pada linux
-hal yang harus di siapkan antara lain:&lt;/p></description></item></channel></rss>
