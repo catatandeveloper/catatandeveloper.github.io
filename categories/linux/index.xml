@@ -1,11 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Catatan Developer</title><link>https://catatandeveloper.id/categories/linux/</link><description>Recent content in Linux on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 17 Jan 2025 22:02:33 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Memahami Directory Linux</title><link>https://catatandeveloper.id/memahami-directory-linux/</link><pubDate>Fri, 17 Jan 2025 22:02:33 +0700</pubDate><guid>https://catatandeveloper.id/memahami-directory-linux/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/linux/directory.jpg" alt="Directory linux" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
-
-&lt;p>Linux menggunakan struktur file berbasis hierarki yang dimulai dari root directory (/). Semua file dan direktori dalam sistem Linux berada di bawah root ini, termasuk perangkat keras yang terhubung. Berikut adalah penjelasan dari direktori utama yang sering ditemukan di sistem Linux, serta perbandingan dengan sistem operasi lain seperti Windows, FreeBSD, dan macOS.&lt;/p>
-&lt;h3 id="sejarah-struktur-direktori-di-linux">Sejarah Struktur Direktori di Linux&lt;/h3>
-&lt;p>Struktur direktori Linux berasal dari sistem operasi UNIX, yang dikembangkan pada tahun 1970-an oleh Dennis Ritchie dan Ken Thompson di AT&amp;amp;T Bell Labs. UNIX dirancang untuk menjadi sistem operasi portabel, multi-user, dan multitasking. Salah satu inisiatif utamanya adalah menciptakan struktur file yang terorganisir secara hierarkis, dengan direktori root (/) sebagai pusatnya. Konsep ini sangat inovatif pada masanya karena memungkinkan berbagai perangkat keras dan file sistem dikelola dalam satu hierarki.&lt;/p></description></item><item><title>Pengenalan Linux Dan Jenis Distro Linux</title><link>https://catatandeveloper.id/pengenalan-linux-dan-jenis-distro/</link><pubDate>Mon, 13 Jan 2025 00:01:36 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-linux-dan-jenis-distro/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/linux/linux.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
-
-&lt;p>Linux adalah salah satu sistem operasi open-source yang paling populer di dunia. Berbeda dengan sistem operasi proprietari seperti Windows atau macOS, Linux memberikan kebebasan kepada pengguna untuk mengakses, memodifikasi, dan mendistribusikan ulang kode sumbernya. Hal ini menjadikan Linux pilihan utama bagi banyak pengembang, sistem administrator, dan pengguna biasa yang menghargai fleksibilitas serta kontrol penuh atas perangkat mereka.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Catatan Developer</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on Catatan Developer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2025 22:02:33 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memahami Directory Linux</title>
+      <link>http://localhost:1313/memahami-directory-linux/</link>
+      <pubDate>Fri, 17 Jan 2025 22:02:33 +0700</pubDate>
+      <guid>http://localhost:1313/memahami-directory-linux/</guid>
+      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/linux/directory.jpg&#34; alt=&#34;Directory linux&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Linux menggunakan struktur file berbasis hierarki yang dimulai dari root directory (/). Semua file dan direktori dalam sistem Linux berada di bawah root ini, termasuk perangkat keras yang terhubung. Berikut adalah penjelasan dari direktori utama yang sering ditemukan di sistem Linux, serta perbandingan dengan sistem operasi lain seperti Windows, FreeBSD, dan macOS.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sejarah-struktur-direktori-di-linux&#34;&gt;Sejarah Struktur Direktori di Linux&lt;/h3&gt;&#xA;&lt;p&gt;Struktur direktori Linux berasal dari sistem operasi UNIX, yang dikembangkan pada tahun 1970-an oleh Dennis Ritchie dan Ken Thompson di AT&amp;amp;T Bell Labs. UNIX dirancang untuk menjadi sistem operasi portabel, multi-user, dan multitasking. Salah satu inisiatif utamanya adalah menciptakan struktur file yang terorganisir secara hierarkis, dengan direktori root (/) sebagai pusatnya. Konsep ini sangat inovatif pada masanya karena memungkinkan berbagai perangkat keras dan file sistem dikelola dalam satu hierarki.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pengenalan Linux Dan Jenis Distro Linux</title>
+      <link>http://localhost:1313/pengenalan-linux-dan-jenis-distro/</link>
+      <pubDate>Mon, 13 Jan 2025 00:01:36 +0700</pubDate>
+      <guid>http://localhost:1313/pengenalan-linux-dan-jenis-distro/</guid>
+      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/linux/linux.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Linux adalah salah satu sistem operasi open-source yang paling populer di dunia. Berbeda dengan sistem operasi proprietari seperti Windows atau macOS, Linux memberikan kebebasan kepada pengguna untuk mengakses, memodifikasi, dan mendistribusikan ulang kode sumbernya. Hal ini menjadikan Linux pilihan utama bagi banyak pengembang, sistem administrator, dan pengguna biasa yang menghargai fleksibilitas serta kontrol penuh atas perangkat mereka.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

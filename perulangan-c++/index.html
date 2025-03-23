@@ -1,156 +1,479 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><title>Perulangan C++ - Catatan Developer</title>
-<link rel=icon type=image/png href=https://catatandeveloper.id/images/logo_144.png><meta name=description content="Memahami perulangan dalam c++ yang mudah dipahami"><meta name=keywords content="pemrograman,c++,developer"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=canonical href=https://catatandeveloper.id/perulangan-c++/><meta name=google-site-verification content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w"><meta property="og:title" content="Perulangan C++"><meta property="og:description" content="Memahami perulangan dalam c++ yang mudah dipahami"><meta property="og:url" content="https://catatandeveloper.id/perulangan-c++/"><meta property="og:type" content="website"><meta property="og:image" content="https://catatandeveloper.id/images/cpp.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Perulangan C++"><meta name=twitter:description content="Memahami perulangan dalam c++ yang mudah dipahami"><meta name=twitter:image content="https://catatandeveloper.id/images/cpp.jpg"><link rel=stylesheet href=/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css><link rel=stylesheet href=/css/style.min.981552f9c8996812fae1fd5668f27309fda6e7258c719b10b52a3d823f77b841.css><script>function image_loaded(e){setTimeout(()=>{e.classList.add("loaded");const t=e.parentElement;t.classList.remove("loading-image"),t.classList.remove("size0"),t.classList.remove("size1"),t.classList.remove("size2")},2e3)}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin=anonymous></script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Danu Andrean"},"datePublished":"05-01-2025","icon":"https://catatandeveloper.id/images/logo_144.png","image":"https://catatandeveloper.id/images/cpp.jpg","name":"Perulangan C++"}</script></head><body><header class=fixed-top><div class=container><nav class="navbar navbar-expand-lg"><div class=container-fluid><a class="navbar-brand text-white" href=/><img src=/images/logo.png alt width=40></img>
-<span class="name-title mx-2">Catatan Developer</span></a><div class=navbar-expand id=navbarSupportedContent><ul class="navbar-nav mb-2 mb-lg-0"><li class=nav-item><a class="nav-link text-white" href=/tutorial/>Tutorials</a></li><li class=nav-item><a class="nav-link text-white" href=/issue/>Issues</a></li><li class=nav-item><a class="nav-link text-white" href=/about/>About</a></li></ul></div></div></nav></div></header><main class=mb-5><div class=container><div class=row><div class="col-sm-8 mb-5"><article class="shadow p-4 rounded"><p class=title-post>Danu Andrean, 05 Jan 2025</p><h2 class=my-3>Perulangan C++</h2><p><div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/cpp.jpg alt="Penjelasan Gambar" style=max-width:900px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div>Perulangan (looping) adalah salah satu konsep penting dalam pemrograman, termasuk di C++. Dengan menggunakan perulangan, kita dapat menjalankan suatu blok kode secara berulang hingga kondisi tertentu terpenuhi. Artikel ini akan membahas berbagai jenis perulangan di C++, beserta contohnya.</p><h3 id=perulangan-for>Perulangan for</h3><p>Perulangan for digunakan ketika jumlah iterasi sudah diketahui sebelumnya. Struktur dasarnya adalah:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>for</span> (inisialisasi; kondisi; perubahan) 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#75715e>// blok kode yang akan dijalankan
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}</span></span></code></pre></div><h5 id=contoh-menampilkan-angka-1-hingga-5>Contoh: Menampilkan angka 1 hingga 5.:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>5</span>; i<span style=color:#f92672>++</span>) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>1 2 3 4 5</span></span></code></pre></div><h3 id=perulangan-while>Perulangan while</h3><p>Perulangan while digunakan ketika kita ingin mengevaluasi kondisi terlebih dahulu sebelum menjalankan blok kode. Struktur dasarnya adalah:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>while</span> (kondisi) 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#75715e>// blok kode yang akan dijalankan
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}</span></span></code></pre></div><h5 id=contoh-menampilkan-angka-1-hingga-5-1>Contoh: Menampilkan angka 1 hingga 5.:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>;
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>while</span> (i <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>5</span>) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>        i<span style=color:#f92672>++</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-1>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>1 2 3 4 5</span></span></code></pre></div><h3 id=perulangan-do-while>Perulangan do-while</h3><p>Perulangan do-while menjamin bahwa blok kode dijalankan setidaknya sekali sebelum mengevaluasi kondisi. Struktur dasarnya adalah:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>do</span> 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#75715e>// blok kode yang akan dijalankan
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>} 
-</span></span><span style=display:flex><span><span style=color:#66d9ef>while</span> (kondisi);</span></span></code></pre></div><h5 id=contoh-menampilkan-angka-1-hingga-5-2>Contoh: Menampilkan angka 1 hingga 5.:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>;
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>do</span> 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>        i<span style=color:#f92672>++</span>;
-</span></span><span style=display:flex><span>    } 
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>while</span> (i <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>5</span>);
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-2>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>1 2 3 4 5</span></span></code></pre></div><h3 id=perulangan-bersarang-nested-loop>Perulangan Bersarang (Nested Loop)</h3><p>Perulangan dapat bersarang di dalam perulangan lainnya untuk menyelesaikan masalah yang lebih kompleks.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>3</span>; i<span style=color:#f92672>++</span>) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> j <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; j <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>3</span>; j<span style=color:#f92672>++</span>) 
-</span></span><span style=display:flex><span>        {
-</span></span><span style=display:flex><span>            std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> i <span style=color:#f92672>*</span> j <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>        }
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-3>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>1 2 3
-</span></span><span style=display:flex><span>2 4 6
-</span></span><span style=display:flex><span>3 6 9</span></span></code></pre></div><h3 id=kata-kunci-dalam-perulangan>Kata Kunci dalam Perulangan</h3><h4 id=break>break</h4><p>Digunakan untuk keluar dari perulangan sebelum waktunya.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>10</span>; i<span style=color:#f92672>++</span>) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span> (i <span style=color:#f92672>==</span> <span style=color:#ae81ff>5</span>) 
-</span></span><span style=display:flex><span>        {
-</span></span><span style=display:flex><span>            <span style=color:#66d9ef>break</span>;
-</span></span><span style=display:flex><span>        }
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-4>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>1 2 3 4</span></span></code></pre></div><h4 id=continue>continue</h4><p>Digunakan untuk melompati iterasi saat ini dan melanjutkan ke iterasi berikutnya.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>5</span>; i<span style=color:#f92672>++</span>) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span> (i <span style=color:#f92672>==</span> <span style=color:#ae81ff>3</span>) 
-</span></span><span style=display:flex><span>        {
-</span></span><span style=display:flex><span>            <span style=color:#66d9ef>continue</span>;
-</span></span><span style=display:flex><span>        }
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-5>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>1 2 4 5</span></span></code></pre></div><h3 id=perulangan-tak-hingga>Perulangan tak hingga</h3><p>Kamu bisa membuat perulangan berjalan terus menerus secara tak hingga, ini biasanya digunakan di sistem yang membutuhkan running program terus menerus seperti embedded, komunikasi dan lain sebagainya.</p><h5 id=menggunakan-while>Menggunakan while</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>while</span> (true) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        <span style=color:#75715e>// blok kode untuk setiap elemen
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=menggunakan-for>Menggunakan for</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (;;) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        <span style=color:#75715e>// blok kode untuk setiap elemen
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><p>menggunakan for secara estetika lebih baik jika kamu benar-benar menginginkan program berjalan terus menerus, hal ini dikarenakan memberikan kesan tidak ambigu jika di bandingkan dengan while(true);, karena true bersifat logika yang bisa saja menjadi false, meskipun didalam for tak hingga bisa di break, tetapi memahami hal seperti ini membuat kode kamu lebih baik secara penulisan.</p><h3 id=range-based-for-loop>Range-based for loop</h3><p>Dalam C++, for(:) adalah sintaks untuk range-based for loop, yang digunakan untuk mengiterasi elemen dalam koleksi seperti array, std::vector, atau objek yang mendukung iterasi. Loop ini lebih sederhana dan sering digunakan ketika kita hanya perlu mengakses elemen tanpa memanipulasi indeks.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> elemen : collections) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        <span style=color:#75715e>// blok kode untuk setiap elemen
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><ul><li>auto: Secara otomatis mendeteksi tipe data elemen dalam koleksi.</li><li>elemen: Merujuk ke setiap item dalam koleksi.</li><li>koleksi: Array, std::vector, atau struktur data lain yang mendukung iterasi.</li></ul><h5 id=contoh-array>Contoh array:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> numbers[] <span style=color:#f92672>=</span> {<span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>4</span>, <span style=color:#ae81ff>5</span>};
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> number : numbers) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> number <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-6>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>1 2 3 4 5</span></span></code></pre></div><h5 id=contoh-vector>Contoh vector:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;vector&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>vector<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> numbers <span style=color:#f92672>=</span> {<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>20</span>, <span style=color:#ae81ff>30</span>, <span style=color:#ae81ff>40</span>, <span style=color:#ae81ff>50</span>};
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> number : numbers) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> number <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-7>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>10 20 30 40 50</span></span></code></pre></div><h5 id=memodifikasi-data>Memodifikasi data</h5><p>Jika kamu ingin memodifikasi elemen dalam koleksi, gunakan referensi (&):</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;vector&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>vector<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> numbers <span style=color:#f92672>=</span> {<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>20</span>, <span style=color:#ae81ff>30</span>};
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span><span style=color:#f92672>&amp;</span> elemen : numbers) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        elemen <span style=color:#f92672>*=</span> <span style=color:#ae81ff>2</span>;  <span style=color:#75715e>// Menggandakan nilai setiap elemen
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> elemen : numbers) 
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> elemen <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=output-8>Output:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>20 40 60</span></span></code></pre></div><h3 id=kesimpulan>Kesimpulan</h3><p>Memahami dan menguasai perulangan dalam C++ sangat penting untuk menyelesaikan berbagai masalah pemrograman. Dengan memanfaatkan jenis-jenis perulangan seperti for, while, do-while, serta kata kunci break dan continue, Kamu dapat membuat program yang lebih efisien dan fleksibel. 🎉🎉🎉</p><br><hr><tags><a href=/tags/pemrograman>#pemrograman</a>
-<a href=/tags/c++>#c++</a></p></tags></article></div><div class=col-sm-4><div class="shadow mb-5 p-3 rounded"><div class=card-body><h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5><div class="my-2 new-category-ads text-center"><a href=/categories/git class="btn btn-outline-success zoom-effect">git (4)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/windows class="btn btn-outline-success zoom-effect">windows (7)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/linux class="btn btn-outline-success zoom-effect">linux (2)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/pemrograman class="btn btn-outline-success zoom-effect">pemrograman (13)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/sistem-operasi class="btn btn-outline-success zoom-effect">sistem operasi (3)</a></div></div></div><div class=p-3></div><div class=p-3></div></div></div></div></main><footer><div>Build with ❤️ using Hugo</div><div class=footer-copy>&copy; 2025 Catatan Developer. All Rights Reserved.</div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <title>Perulangan C&#43;&#43; - Catatan Developer</title>
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/logo_144.png">
+    
+    <meta name="description" content="Memahami perulangan dalam c&#43;&#43; yang mudah dipahami">
+    <meta name="keywords" content="pemrograman, c&#43;&#43;, developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="http://localhost:1313/perulangan-c&#43;&#43;/">
+
+    <meta name="google-site-verification" content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w" />
+    
+    
+    <meta property="og:title" content="Perulangan C&#43;&#43;">
+    <meta property="og:description" content="Memahami perulangan dalam c&#43;&#43; yang mudah dipahami">
+    <meta property="og:url" content="http://localhost:1313/perulangan-c&#43;&#43;/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/images/cpp.jpg">
+
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Perulangan C&#43;&#43;">
+    <meta name="twitter:description" content="Memahami perulangan dalam c&#43;&#43; yang mudah dipahami">
+    <meta name="twitter:image" content="http://localhost:1313/images/cpp.jpg">
+
+    
+    
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css">
+
+  <link rel="stylesheet" href="/css/style.min.37e86473927ef03d6df7335a152389af2e3803e49a6d03f3131c6d8c6370e361.css">
+
+
+    <script>
+        function image_loaded(img) {
+            setTimeout(() => {
+                img.classList.add('loaded');
+                const container = img.parentElement; 
+                container.classList.remove('loading-image');
+
+                container.classList.remove('size0');
+                container.classList.remove('size1');
+                container.classList.remove('size2');
+            }, 2000); 
+            
+        }
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Danu Andrean"},"datePublished":"05-01-2025","icon":"http://localhost:1313/images/logo_144.png","image":"http://localhost:1313/images/cpp.jpg","name":"Perulangan C++"}
+</script>
+
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid ">
+        <a class="navbar-brand text-white" href="/"> 
+            <img src="/images/logo.png" alt="" width="40"></img>
+            <span class="name-title mx-2">
+                Catatan Developer
+            </span>
+        </a>
+        
+        <div class=" navbar-expand  " id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/tutorial/">Tutorials</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/issue/">Issues</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/about/">About</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/author/">Author</a>
+                    </li>
+                
+            
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+        </div>
+    </header>
+    <main class="mb-5">
+
+        
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 mb-5">
+			<article class="shadow p-4 rounded">
+				<p class="title-post"> <a href="http://localhost:1313/author/danuandrean">Danu Andrean</a>, 05 Jan 2025</p>
+				<h2 class="my-3">
+					
+						Perulangan C&#43;&#43;
+					
+				</h2>
+				<p><div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+
+Perulangan (looping) adalah salah satu konsep penting dalam pemrograman, termasuk di C++. Dengan menggunakan perulangan, kita dapat menjalankan suatu blok kode secara berulang hingga kondisi tertentu terpenuhi. Artikel ini akan membahas berbagai jenis perulangan di C++, beserta contohnya.</p>
+<h3 id="perulangan-for">Perulangan for</h3>
+<p>Perulangan for digunakan ketika jumlah iterasi sudah diketahui sebelumnya. Struktur dasarnya adalah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (inisialisasi; kondisi; perubahan) 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// blok kode yang akan dijalankan
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}</span></span></code></pre></div>
+<h5 id="contoh-menampilkan-angka-1-hingga-5">Contoh: Menampilkan angka 1 hingga 5.:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">5</span>; i<span style="color:#f92672">++</span>) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>1 2 3 4 5</span></span></code></pre></div>
+<h3 id="perulangan-while">Perulangan while</h3>
+<p>Perulangan while digunakan ketika kita ingin mengevaluasi kondisi terlebih dahulu sebelum menjalankan blok kode. Struktur dasarnya adalah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (kondisi) 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// blok kode yang akan dijalankan
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}</span></span></code></pre></div>
+<h5 id="contoh-menampilkan-angka-1-hingga-5-1">Contoh: Menampilkan angka 1 hingga 5.:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">5</span>) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>        i<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-1">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>1 2 3 4 5</span></span></code></pre></div>
+<h3 id="perulangan-do-while">Perulangan do-while</h3>
+<p>Perulangan do-while menjamin bahwa blok kode dijalankan setidaknya sekali sebelum mengevaluasi kondisi. Struktur dasarnya adalah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">do</span> 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// blok kode yang akan dijalankan
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>} 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (kondisi);</span></span></code></pre></div>
+<h5 id="contoh-menampilkan-angka-1-hingga-5-2">Contoh: Menampilkan angka 1 hingga 5.:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">do</span> 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>        i<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>    } 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">5</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-2">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>1 2 3 4 5</span></span></code></pre></div>
+<h3 id="perulangan-bersarang-nested-loop">Perulangan Bersarang (Nested Loop)</h3>
+<p>Perulangan dapat bersarang di dalam perulangan lainnya untuk menyelesaikan masalah yang lebih kompleks.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">3</span>; i<span style="color:#f92672">++</span>) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">3</span>; j<span style="color:#f92672">++</span>) 
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">*</span> j <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-3">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>1 2 3
+</span></span><span style="display:flex;"><span>2 4 6
+</span></span><span style="display:flex;"><span>3 6 9</span></span></code></pre></div>
+<h3 id="kata-kunci-dalam-perulangan">Kata Kunci dalam Perulangan</h3>
+<h4 id="break">break</h4>
+<p>Digunakan untuk keluar dari perulangan sebelum waktunya.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">10</span>; i<span style="color:#f92672">++</span>) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>) 
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-4">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>1 2 3 4</span></span></code></pre></div>
+<h4 id="continue">continue</h4>
+<p>Digunakan untuk melompati iterasi saat ini dan melanjutkan ke iterasi berikutnya.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">5</span>; i<span style="color:#f92672">++</span>) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">3</span>) 
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">continue</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-5">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>1 2 4 5</span></span></code></pre></div>
+<h3 id="perulangan-tak-hingga">Perulangan tak hingga</h3>
+<p>Kamu bisa membuat perulangan berjalan terus menerus secara tak hingga, ini biasanya digunakan di sistem yang membutuhkan running program terus menerus seperti embedded, komunikasi dan lain sebagainya.</p>
+<h5 id="menggunakan-while">Menggunakan while</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (true) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// blok kode untuk setiap elemen
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="menggunakan-for">Menggunakan for</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (;;) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// blok kode untuk setiap elemen
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>menggunakan for secara estetika lebih baik jika kamu benar-benar menginginkan program berjalan terus menerus, hal ini dikarenakan memberikan kesan tidak ambigu jika di bandingkan dengan while(true);, karena true bersifat logika yang bisa saja menjadi false, meskipun didalam for tak hingga bisa di break, tetapi memahami hal seperti ini membuat kode kamu lebih baik secara penulisan.</p>
+<h3 id="range-based-for-loop">Range-based for loop</h3>
+<p>Dalam C++, for(:) adalah sintaks untuk range-based for loop, yang digunakan untuk mengiterasi elemen dalam koleksi seperti array, std::vector, atau objek yang mendukung iterasi. Loop ini lebih sederhana dan sering digunakan ketika kita hanya perlu mengakses elemen tanpa memanipulasi indeks.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">auto</span> elemen : collections) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// blok kode untuk setiap elemen
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<ul>
+<li>auto: Secara otomatis mendeteksi tipe data elemen dalam koleksi.</li>
+<li>elemen: Merujuk ke setiap item dalam koleksi.</li>
+<li>koleksi: Array, std::vector, atau struktur data lain yang mendukung iterasi.</li>
+</ul>
+<h5 id="contoh-array">Contoh array:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> numbers[] <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">auto</span> number : numbers) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> number <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-6">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>1 2 3 4 5</span></span></code></pre></div>
+<h5 id="contoh-vector">Contoh vector:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;vector&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> numbers <span style="color:#f92672">=</span> {<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">40</span>, <span style="color:#ae81ff">50</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">auto</span> number : numbers) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> number <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-7">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>10 20 30 40 50</span></span></code></pre></div>
+<h5 id="memodifikasi-data">Memodifikasi data</h5>
+<p>Jika kamu ingin memodifikasi elemen dalam koleksi, gunakan referensi (&amp;):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;vector&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> numbers <span style="color:#f92672">=</span> {<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">30</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> elemen : numbers) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        elemen <span style="color:#f92672">*=</span> <span style="color:#ae81ff">2</span>;  <span style="color:#75715e">// Menggandakan nilai setiap elemen
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">auto</span> elemen : numbers) 
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> elemen <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h5 id="output-8">Output:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>20 40 60</span></span></code></pre></div>
+<h3 id="kesimpulan">Kesimpulan</h3>
+<p>Memahami dan menguasai perulangan dalam C++ sangat penting untuk menyelesaikan berbagai masalah pemrograman. Dengan memanfaatkan jenis-jenis perulangan seperti for, while, do-while, serta kata kunci break dan continue, Kamu dapat membuat program yang lebih efisien dan fleksibel. 🎉🎉🎉</p>
+
+				<br>
+				<hr>
+				<tags>
+					
+					
+						
+						<a href="/tags/pemrograman">#pemrograman</a>
+						
+					
+						
+						<a href="/tags/c&#43;&#43;">#c&#43;&#43;</a>
+						
+					
+					</p>
+				</tags>
+			</article>
+		</div>
+		<div class="col-sm-4">
+			
+<div class=" shadow mb-5 p-3 rounded" >
+	<div class="card-body">
+		<h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5>
+
+		
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+
+		
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/git" class="btn btn-outline-success zoom-effect">
+					git (4)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/windows" class="btn btn-outline-success zoom-effect">
+					windows (7)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/linux" class="btn btn-outline-success zoom-effect">
+					linux (2)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/pemrograman" class="btn btn-outline-success zoom-effect">
+					pemrograman (13)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/sistem-operasi" class="btn btn-outline-success zoom-effect">
+					sistem operasi (3)
+				</a>
+			</div>
+		
+		
+	</div>
+</div>
+
+
+<div class="p-3">
+	
+
+
+	
+	
+</div>
+
+
+
+<div class="p-3">
+	
+
+
+	
+	
+</div>	 
+
+		</div>
+	</div>
+</div>
+
+    </main>
+    <footer>
+        <div class="">
+            Build with ❤️ using Hugo
+        </div>
+        <div class="footer-copy">
+            &copy; 2025 Catatan Developer. All Rights Reserved.
+        </div>
+    </footer>
+  
+
+    
+    
+</body>
+</html>

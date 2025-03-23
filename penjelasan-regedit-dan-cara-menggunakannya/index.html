@@ -1,21 +1,353 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><title>Penjelasan Regedit dan Cara Menggunakannya - Catatan Developer</title>
-<link rel=icon type=image/png href=https://catatandeveloper.id/images/logo_144.png><meta name=description content="Simak Penjelasan dan Kegunaan Tentang Registry Editor Pada Windows"><meta name=keywords content="windows,regedit,registry,editor"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=canonical href=https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/><meta name=google-site-verification content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w"><meta property="og:title" content="Penjelasan Regedit dan Cara Menggunakannya"><meta property="og:description" content="Simak Penjelasan dan Kegunaan Tentang Registry Editor Pada Windows"><meta property="og:url" content="https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/"><meta property="og:type" content="website"><meta property="og:image" content="https://catatandeveloper.id/images/windows/regedit.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Penjelasan Regedit dan Cara Menggunakannya"><meta name=twitter:description content="Simak Penjelasan dan Kegunaan Tentang Registry Editor Pada Windows"><meta name=twitter:image content="https://catatandeveloper.id/images/windows/regedit.jpg"><link rel=stylesheet href=/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css><link rel=stylesheet href=/css/style.min.981552f9c8996812fae1fd5668f27309fda6e7258c719b10b52a3d823f77b841.css><script>function image_loaded(e){setTimeout(()=>{e.classList.add("loaded");const t=e.parentElement;t.classList.remove("loading-image"),t.classList.remove("size0"),t.classList.remove("size1"),t.classList.remove("size2")},2e3)}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin=anonymous></script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Dhoifuddaffa"},"datePublished":"05-01-2025","icon":"https://catatandeveloper.id/images/logo_144.png","image":"https://catatandeveloper.id/images/windows/regedit.jpg","name":"Penjelasan Regedit dan Cara Menggunakannya"}</script></head><body><header class=fixed-top><div class=container><nav class="navbar navbar-expand-lg"><div class=container-fluid><a class="navbar-brand text-white" href=/><img src=/images/logo.png alt width=40></img>
-<span class="name-title mx-2">Catatan Developer</span></a><div class=navbar-expand id=navbarSupportedContent><ul class="navbar-nav mb-2 mb-lg-0"><li class=nav-item><a class="nav-link text-white" href=/tutorial/>Tutorials</a></li><li class=nav-item><a class="nav-link text-white" href=/issue/>Issues</a></li><li class=nav-item><a class="nav-link text-white" href=/about/>About</a></li></ul></div></div></nav></div></header><main class=mb-5><div class=container><div class=row><div class="col-sm-8 mb-5"><article class="shadow p-4 rounded"><p class=title-post>Dhoifuddaffa, 05 Jan 2025</p><h2 class=my-3>Penjelasan Regedit dan Cara Menggunakannya</h2><div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/windows/regedit.jpg alt="Penjelasan Gambar" style=max-width:900px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div><p>Regedit adalah singkatan dari Registry Editor, sebuah alat di Windows yang digunakan untuk melihat, mengedit, atau mengelola entri-entri dalam Windows Registry. Windows Registry adalah basis data hierarkis yang menyimpan pengaturan dan konfigurasi sistem operasi, perangkat keras, perangkat lunak, dan akun pengguna.</p><h2 id=__fungsi-utama-regedit__><strong>Fungsi Utama Regedit</strong></h2><ol><li><p>Melihat dan Mengedit Pengaturan Sistem:
-Digunakan untuk mengubah pengaturan sistem yang tidak tersedia melalui antarmuka grafis (GUI).</p></li><li><p>Memecahkan Masalah Sistem:
-Berguna untuk troubleshooting masalah tertentu, seperti kesalahan aplikasi atau layanan yang tidak berjalan.</p></li><li><p>Mengelola Perangkat Lunak:
-Mengatur perilaku aplikasi tertentu dengan mengubah kunci registry yang terkait.</p></li><li><p>Mengontrol Hak Akses:
-Menyesuaikan izin akses registry untuk pengguna tertentu.</p></li><li><p>Menghapus Sisa Aplikasi:
-Membersihkan entri registry yang tertinggal setelah uninstall program.</p></li></ol><h2 id=__cara-membuka-regedit__><strong>Cara Membuka Regedit</strong></h2><p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>Tekan Win + R, ketik regedit, lalu tekan Enter. </span></span></code></pre></div><div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/windows/regedit1.png alt="Penjelasan Gambar" style=max-width:640px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div></p><h2 id=__struktur-registry__><strong>Struktur Registry</strong></h2><p>Windows Registry terdiri dari lima root utama, disebut juga Hive:</p><ul><li><p><strong>HKEY_CLASSES_ROOT (HKCR):</strong>
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <title>Penjelasan Regedit dan Cara Menggunakannya - Catatan Developer</title>
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/logo_144.png">
+    
+    <meta name="description" content="Simak Penjelasan dan Kegunaan Tentang Registry Editor Pada Windows">
+    <meta name="keywords" content="windows, regedit, registry, editor">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="http://localhost:1313/penjelasan-regedit-dan-cara-menggunakannya/">
+
+    <meta name="google-site-verification" content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w" />
+    
+    
+    <meta property="og:title" content="Penjelasan Regedit dan Cara Menggunakannya">
+    <meta property="og:description" content="Simak Penjelasan dan Kegunaan Tentang Registry Editor Pada Windows">
+    <meta property="og:url" content="http://localhost:1313/penjelasan-regedit-dan-cara-menggunakannya/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/images/windows/regedit.jpg">
+
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Penjelasan Regedit dan Cara Menggunakannya">
+    <meta name="twitter:description" content="Simak Penjelasan dan Kegunaan Tentang Registry Editor Pada Windows">
+    <meta name="twitter:image" content="http://localhost:1313/images/windows/regedit.jpg">
+
+    
+    
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css">
+
+  <link rel="stylesheet" href="/css/style.min.37e86473927ef03d6df7335a152389af2e3803e49a6d03f3131c6d8c6370e361.css">
+
+
+    <script>
+        function image_loaded(img) {
+            setTimeout(() => {
+                img.classList.add('loaded');
+                const container = img.parentElement; 
+                container.classList.remove('loading-image');
+
+                container.classList.remove('size0');
+                container.classList.remove('size1');
+                container.classList.remove('size2');
+            }, 2000); 
+            
+        }
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Dhoifuddaffa"},"datePublished":"05-01-2025","icon":"http://localhost:1313/images/logo_144.png","image":"http://localhost:1313/images/windows/regedit.jpg","name":"Penjelasan Regedit dan Cara Menggunakannya"}
+</script>
+
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid ">
+        <a class="navbar-brand text-white" href="/"> 
+            <img src="/images/logo.png" alt="" width="40"></img>
+            <span class="name-title mx-2">
+                Catatan Developer
+            </span>
+        </a>
+        
+        <div class=" navbar-expand  " id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/tutorial/">Tutorials</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/issue/">Issues</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/about/">About</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/author/">Author</a>
+                    </li>
+                
+            
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+        </div>
+    </header>
+    <main class="mb-5">
+
+        
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 mb-5">
+			<article class="shadow p-4 rounded">
+				<p class="title-post"> <a href="http://localhost:1313/author/dhoifuddaffa">Dhoifuddaffa</a>, 05 Jan 2025</p>
+				<h2 class="my-3">
+					
+						Penjelasan Regedit dan Cara Menggunakannya
+					
+				</h2>
+				<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/windows/regedit.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+
+<p>Regedit adalah singkatan dari Registry Editor, sebuah alat di Windows yang digunakan untuk melihat, mengedit, atau mengelola entri-entri dalam Windows Registry. Windows Registry adalah basis data hierarkis yang menyimpan pengaturan dan konfigurasi sistem operasi, perangkat keras, perangkat lunak, dan akun pengguna.</p>
+<h2 id="fungsi-utama-regedit"><strong>Fungsi Utama Regedit</strong></h2>
+<ol>
+<li>
+<p>Melihat dan Mengedit Pengaturan Sistem:
+Digunakan untuk mengubah pengaturan sistem yang tidak tersedia melalui antarmuka grafis (GUI).</p>
+</li>
+<li>
+<p>Memecahkan Masalah Sistem:
+Berguna untuk troubleshooting masalah tertentu, seperti kesalahan aplikasi atau layanan yang tidak berjalan.</p>
+</li>
+<li>
+<p>Mengelola Perangkat Lunak:
+Mengatur perilaku aplikasi tertentu dengan mengubah kunci registry yang terkait.</p>
+</li>
+<li>
+<p>Mengontrol Hak Akses:
+Menyesuaikan izin akses registry untuk pengguna tertentu.</p>
+</li>
+<li>
+<p>Menghapus Sisa Aplikasi:
+Membersihkan entri registry yang tertinggal setelah uninstall program.</p>
+</li>
+</ol>
+<h2 id="cara-membuka-regedit"><strong>Cara Membuka Regedit</strong></h2>
+<p><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>Tekan Win + R, ketik regedit, lalu tekan Enter. </span></span></code></pre></div>
+<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/windows/regedit1.png" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+</p>
+<h2 id="struktur-registry"><strong>Struktur Registry</strong></h2>
+<p>Windows Registry terdiri dari lima root utama, disebut juga Hive:</p>
+<ul>
+<li>
+<p><strong>HKEY_CLASSES_ROOT (HKCR):</strong>
 Menyimpan informasi tentang asosiasi file dan program.
-Contoh: Ekstensi .txt terhubung ke aplikasi Notepad.</p></li><li><p><strong>HKEY_CURRENT_USER (HKCU):</strong>
+Contoh: Ekstensi .txt terhubung ke aplikasi Notepad.</p>
+</li>
+<li>
+<p><strong>HKEY_CURRENT_USER (HKCU):</strong>
 Menyimpan pengaturan khusus untuk pengguna yang sedang login.
-Contoh: Preferensi tampilan desktop.</p></li><li><p><strong>HKEY_LOCAL_MACHINE (HKLM):</strong>
+Contoh: Preferensi tampilan desktop.</p>
+</li>
+<li>
+<p><strong>HKEY_LOCAL_MACHINE (HKLM):</strong>
 Menyimpan pengaturan global untuk semua pengguna dan perangkat keras.
-Contoh: Konfigurasi driver atau layanan.</p></li><li><p><strong>HKEY_USERS (HKU):</strong>
-Berisi informasi untuk semua akun pengguna di komputer.</p></li><li><p><strong>HKEY_CURRENT_CONFIG (HKCC):</strong>
-Menyimpan informasi tentang konfigurasi perangkat keras yang sedang digunakan.</p></li></ul><h2 id=__contoh-penggunaan-regedit__><strong>Contoh Penggunaan Regedit</strong></h2><p>Mengubah Nama Pemilik Komputer:<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>Navigasi ke: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion</span></span></code></pre></div>Ubah nilai pada RegisteredOwner.<div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/windows/regedit2.png alt="Penjelasan Gambar" style=max-width:640px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div></p><p>Contoh penggunakan regedit juga dapat Menon-Aktikan Windows Update, sama seperti penjelasan sebelumnya pada postingan:
-<a href=https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis</a></p><h2 id=__tips-menggunakan-regedit__><strong>Tips Menggunakan Regedit</strong></h2><ol><li><p>Backup Registry Sebelum Mengedit:
-Sebelum melakukan perubahan, backup dengan cara:<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>Klik kanan pada kunci registry yang ingin diubah.
-</span></span><span style=display:flex><span>Pilih Export, lalu simpan file .reg.</span></span></code></pre></div><div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/windows/regedit3.png alt="Penjelasan Gambar" style=max-width:640px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div></p></li><li><p>Hati-Hati Saat Mengedit:
-Kesalahan dalam mengubah registry dapat menyebabkan masalah serius pada sistem, seperti crash atau aplikasi tidak berfungsi.</p></li><li><p>Gunakan Fitur Search:<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>Tekan Ctrl + F untuk mencari entri registry tertentu.</span></span></code></pre></div><div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/windows/regedit4.png alt="Penjelasan Gambar" style=max-width:640px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div></p></li><li><p>Jangan Menghapus Tanpa Tahu Dampaknya:
-Jika tidak yakin, lebih baik mencari informasi atau meminta bantuan profesional.</p></li></ol><h2 id=__kesimpulan__><strong>Kesimpulan:</strong></h2><p>Regedit adalah alat yang sangat kuat tetapi berisiko jika tidak digunakan dengan hati-hati. Ini dirancang untuk pengguna tingkat lanjut, administrator, atau teknisi IT yang memahami dampak perubahan pada Windows Registry. Dengan penggunaan yang benar, Regedit dapat memecahkan banyak masalah sistem, meningkatkan performa, atau memberikan kontrol lebih besar atas sistem operasi.</p><br><hr><tags><a href=/tags/windows>#windows</a></p></tags></article></div><div class=col-sm-4><div class="shadow mb-5 p-3 rounded"><div class=card-body><h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5><div class="my-2 new-category-ads text-center"><a href=/categories/git class="btn btn-outline-success zoom-effect">git (4)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/windows class="btn btn-outline-success zoom-effect">windows (7)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/linux class="btn btn-outline-success zoom-effect">linux (2)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/pemrograman class="btn btn-outline-success zoom-effect">pemrograman (13)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/sistem-operasi class="btn btn-outline-success zoom-effect">sistem operasi (3)</a></div></div></div><div class=p-3></div><div class=p-3></div></div></div></div></main><footer><div>Build with ❤️ using Hugo</div><div class=footer-copy>&copy; 2025 Catatan Developer. All Rights Reserved.</div></footer></body></html>
+Contoh: Konfigurasi driver atau layanan.</p>
+</li>
+<li>
+<p><strong>HKEY_USERS (HKU):</strong>
+Berisi informasi untuk semua akun pengguna di komputer.</p>
+</li>
+<li>
+<p><strong>HKEY_CURRENT_CONFIG (HKCC):</strong>
+Menyimpan informasi tentang konfigurasi perangkat keras yang sedang digunakan.</p>
+</li>
+</ul>
+<h2 id="contoh-penggunaan-regedit"><strong>Contoh Penggunaan Regedit</strong></h2>
+<p>Mengubah Nama Pemilik Komputer:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>Navigasi ke: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion</span></span></code></pre></div>
+Ubah nilai pada RegisteredOwner.
+<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/windows/regedit2.png" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+</p>
+<p>Contoh penggunakan regedit juga dapat Menon-Aktikan Windows Update, sama seperti penjelasan sebelumnya pada postingan:
+<a href="https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis">https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis</a></p>
+<h2 id="tips-menggunakan-regedit"><strong>Tips Menggunakan Regedit</strong></h2>
+<ol>
+<li>
+<p>Backup Registry Sebelum Mengedit:
+Sebelum melakukan perubahan, backup dengan cara:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>Klik kanan pada kunci registry yang ingin diubah.
+</span></span><span style="display:flex;"><span>Pilih Export, lalu simpan file .reg.</span></span></code></pre></div>
+<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/windows/regedit3.png" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+</p>
+</li>
+<li>
+<p>Hati-Hati Saat Mengedit:
+Kesalahan dalam mengubah registry dapat menyebabkan masalah serius pada sistem, seperti crash atau aplikasi tidak berfungsi.</p>
+</li>
+<li>
+<p>Gunakan Fitur Search:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>Tekan Ctrl + F untuk mencari entri registry tertentu.</span></span></code></pre></div>
+<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/windows/regedit4.png" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+</p>
+</li>
+<li>
+<p>Jangan Menghapus Tanpa Tahu Dampaknya:
+Jika tidak yakin, lebih baik mencari informasi atau meminta bantuan profesional.</p>
+</li>
+</ol>
+<h2 id="kesimpulan"><strong>Kesimpulan:</strong></h2>
+<p>Regedit adalah alat yang sangat kuat tetapi berisiko jika tidak digunakan dengan hati-hati. Ini dirancang untuk pengguna tingkat lanjut, administrator, atau teknisi IT yang memahami dampak perubahan pada Windows Registry. Dengan penggunaan yang benar, Regedit dapat memecahkan banyak masalah sistem, meningkatkan performa, atau memberikan kontrol lebih besar atas sistem operasi.</p>
+
+				<br>
+				<hr>
+				<tags>
+					
+					
+						
+						<a href="/tags/windows">#windows</a>
+						
+					
+					</p>
+				</tags>
+			</article>
+		</div>
+		<div class="col-sm-4">
+			
+<div class=" shadow mb-5 p-3 rounded" >
+	<div class="card-body">
+		<h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5>
+
+		
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+
+		
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/git" class="btn btn-outline-success zoom-effect">
+					git (4)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/windows" class="btn btn-outline-success zoom-effect">
+					windows (7)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/linux" class="btn btn-outline-success zoom-effect">
+					linux (2)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/pemrograman" class="btn btn-outline-success zoom-effect">
+					pemrograman (13)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/sistem-operasi" class="btn btn-outline-success zoom-effect">
+					sistem operasi (3)
+				</a>
+			</div>
+		
+		
+	</div>
+</div>
+
+
+<div class="p-3">
+	
+
+
+	
+	
+</div>
+
+
+
+<div class="p-3">
+	
+
+
+	
+	
+</div>	 
+
+		</div>
+	</div>
+</div>
+
+    </main>
+    <footer>
+        <div class="">
+            Build with ❤️ using Hugo
+        </div>
+        <div class="footer-copy">
+            &copy; 2025 Catatan Developer. All Rights Reserved.
+        </div>
+    </footer>
+  
+
+    
+    
+</body>
+</html>

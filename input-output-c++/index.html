@@ -1,27 +1,310 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><title>Input Output C++ - Catatan Developer</title>
-<link rel=icon type=image/png href=https://catatandeveloper.id/images/logo_144.png><meta name=description content="memahami input dan output di c++"><meta name=keywords content="pemrograman,c++,developer"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=canonical href=https://catatandeveloper.id/input-output-c++/><meta name=google-site-verification content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w"><meta property="og:title" content="Input Output C++"><meta property="og:description" content="memahami input dan output di c++"><meta property="og:url" content="https://catatandeveloper.id/input-output-c++/"><meta property="og:type" content="website"><meta property="og:image" content="https://catatandeveloper.id/images/cpp.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Input Output C++"><meta name=twitter:description content="memahami input dan output di c++"><meta name=twitter:image content="https://catatandeveloper.id/images/cpp.jpg"><link rel=stylesheet href=/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css><link rel=stylesheet href=/css/style.min.981552f9c8996812fae1fd5668f27309fda6e7258c719b10b52a3d823f77b841.css><script>function image_loaded(e){setTimeout(()=>{e.classList.add("loaded");const t=e.parentElement;t.classList.remove("loading-image"),t.classList.remove("size0"),t.classList.remove("size1"),t.classList.remove("size2")},2e3)}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin=anonymous></script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Danu Andrean"},"datePublished":"19-12-2024","icon":"https://catatandeveloper.id/images/logo_144.png","image":"https://catatandeveloper.id/images/cpp.jpg","name":"Input Output C++"}</script></head><body><header class=fixed-top><div class=container><nav class="navbar navbar-expand-lg"><div class=container-fluid><a class="navbar-brand text-white" href=/><img src=/images/logo.png alt width=40></img>
-<span class="name-title mx-2">Catatan Developer</span></a><div class=navbar-expand id=navbarSupportedContent><ul class="navbar-nav mb-2 mb-lg-0"><li class=nav-item><a class="nav-link text-white" href=/tutorial/>Tutorials</a></li><li class=nav-item><a class="nav-link text-white" href=/issue/>Issues</a></li><li class=nav-item><a class="nav-link text-white" href=/about/>About</a></li></ul></div></div></nav></div></header><main class=mb-5><div class=container><div class=row><div class="col-sm-8 mb-5"><article class="shadow p-4 rounded"><p class=title-post>Danu Andrean, 19 Dec 2024</p><h2 class=my-3>Input Output C++</h2><div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/cpp.jpg alt="Penjelasan Gambar" style=max-width:900px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div><p>Dalam bahasa pemrograman C++, input dan output adalah dua operasi dasar yang sering digunakan untuk berinteraksi dengan pengguna atau perangkat lain. Operasi ini biasanya dilakukan dengan menggunakan standar library iostream yang menyediakan fungsionalitas untuk membaca data (input) dan menulis data (output).</p><h3 id=input-dan-output>Input dan Output</h3><p>sederhananya input adalah masukan yang diterima dari terminal sehingga datanya bisa diolah di dalam kode, sedangkan output adalah data keluaran yang di tampilkan di terminal, berikut contoh input dan output:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> number;
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;masukan angka : &#34;</span>;
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>cin <span style=color:#f92672>&gt;&gt;</span> number;
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;angka yang anda masukan adalah : &#34;</span> <span style=color:#f92672>&lt;&lt;</span> number <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><p>compile dan running programnya</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>$ g++ main.cpp
-</span></span><span style=display:flex><span>$ ./a.out</span></span></code></pre></div><p>maka hasilnya seperti berikut:<div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/cpp/io1.png alt="Penjelasan Gambar" style=max-width:600px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div></p><h3 id=penjelasan>Penjelasan</h3><ul><li>cin: Digunakan untuk mengambil input dari pengguna. Pada contoh ini, cin digunakan untuk menerima input angka dan menyimpannya dalam variabel angka.</li><li>&ldquo;&#187;&rdquo; : Operator ini digunakan untuk mengarahkan input dari cin ke variabel yang sesuai.</li><li>cout: Digunakan untuk menampilkan pesan kepada pengguna.</li></ul><p>perlu kita ingat kembali ya &ldquo;std::&rdquo; adalah namespace dari standart library c++, jadi jika tidak menggunakan &ldquo;using namespace std;&rdquo; maka kamu harus memakai &ldquo;std::&rdquo; atau namespace setiap pemanggilan standart library.</p><h3 id=contoh-lain>Contoh lain</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;string&gt;</span><span style=color:#75715e>
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
-</span></span><span style=display:flex><span>{
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>string name;
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;masukan nama anda : &#34;</span>;
-</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>cin <span style=color:#f92672>&gt;&gt;</span> name;
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span>(name <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;dnan&#34;</span>)
-</span></span><span style=display:flex><span>        std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Hallo : &#34;</span> <span style=color:#f92672>&lt;&lt;</span> name <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}</span></span></code></pre></div><p>compile dan running programnya</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>$ g++ main.cpp
-</span></span><span style=display:flex><span>$ ./a.out</span></span></code></pre></div><p>maka hasilnya seperti berikut:<div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/cpp/io2.png alt="Penjelasan Gambar" style=max-width:600px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div></p><p>selamat kamu sudah mempelajari apa itu input dan output di c++, temukan materi c++ lain di <a href=https://catatandeveloper.id/tutorial/c++/>link berikut</a> 🎉🎉🎉</p><br><hr><tags><a href=/tags/pemrograman>#pemrograman</a>
-<a href=/tags/c++>#c++</a></p></tags></article></div><div class=col-sm-4><div class="shadow mb-5 p-3 rounded"><div class=card-body><h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5><div class="my-2 new-category-ads text-center"><a href=/categories/git class="btn btn-outline-success zoom-effect">git (4)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/windows class="btn btn-outline-success zoom-effect">windows (7)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/linux class="btn btn-outline-success zoom-effect">linux (2)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/pemrograman class="btn btn-outline-success zoom-effect">pemrograman (13)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/sistem-operasi class="btn btn-outline-success zoom-effect">sistem operasi (3)</a></div></div></div><div class=p-3></div><div class=p-3></div></div></div></div></main><footer><div>Build with ❤️ using Hugo</div><div class=footer-copy>&copy; 2025 Catatan Developer. All Rights Reserved.</div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <title>Input Output C&#43;&#43; - Catatan Developer</title>
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/logo_144.png">
+    
+    <meta name="description" content="memahami input dan output di c&#43;&#43;">
+    <meta name="keywords" content="pemrograman, c&#43;&#43;, developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="http://localhost:1313/input-output-c&#43;&#43;/">
+
+    <meta name="google-site-verification" content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w" />
+    
+    
+    <meta property="og:title" content="Input Output C&#43;&#43;">
+    <meta property="og:description" content="memahami input dan output di c&#43;&#43;">
+    <meta property="og:url" content="http://localhost:1313/input-output-c&#43;&#43;/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/images/cpp.jpg">
+
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Input Output C&#43;&#43;">
+    <meta name="twitter:description" content="memahami input dan output di c&#43;&#43;">
+    <meta name="twitter:image" content="http://localhost:1313/images/cpp.jpg">
+
+    
+    
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css">
+
+  <link rel="stylesheet" href="/css/style.min.37e86473927ef03d6df7335a152389af2e3803e49a6d03f3131c6d8c6370e361.css">
+
+
+    <script>
+        function image_loaded(img) {
+            setTimeout(() => {
+                img.classList.add('loaded');
+                const container = img.parentElement; 
+                container.classList.remove('loading-image');
+
+                container.classList.remove('size0');
+                container.classList.remove('size1');
+                container.classList.remove('size2');
+            }, 2000); 
+            
+        }
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Danu Andrean"},"datePublished":"19-12-2024","icon":"http://localhost:1313/images/logo_144.png","image":"http://localhost:1313/images/cpp.jpg","name":"Input Output C++"}
+</script>
+
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid ">
+        <a class="navbar-brand text-white" href="/"> 
+            <img src="/images/logo.png" alt="" width="40"></img>
+            <span class="name-title mx-2">
+                Catatan Developer
+            </span>
+        </a>
+        
+        <div class=" navbar-expand  " id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/tutorial/">Tutorials</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/issue/">Issues</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/about/">About</a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/author/">Author</a>
+                    </li>
+                
+            
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+        </div>
+    </header>
+    <main class="mb-5">
+
+        
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 mb-5">
+			<article class="shadow p-4 rounded">
+				<p class="title-post"> <a href="http://localhost:1313/author/danuandrean">Danu Andrean</a>, 19 Dec 2024</p>
+				<h2 class="my-3">
+					
+						Input Output C&#43;&#43;
+					
+				</h2>
+				<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+
+<p>Dalam bahasa pemrograman C++, input dan output adalah dua operasi dasar yang sering digunakan untuk berinteraksi dengan pengguna atau perangkat lain. Operasi ini biasanya dilakukan dengan menggunakan standar library iostream yang menyediakan fungsionalitas untuk membaca data (input) dan menulis data (output).</p>
+<h3 id="input-dan-output">Input dan Output</h3>
+<p>sederhananya input adalah masukan yang diterima dari terminal sehingga datanya bisa diolah di dalam kode, sedangkan output adalah data keluaran yang di tampilkan di terminal, berikut contoh input dan output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> number;
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;masukan angka : &#34;</span>;
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cin <span style="color:#f92672">&gt;&gt;</span> number;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;angka yang anda masukan adalah : &#34;</span> <span style="color:#f92672">&lt;&lt;</span> number <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>compile dan running programnya</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>$ g++ main.cpp
+</span></span><span style="display:flex;"><span>$ ./a.out</span></span></code></pre></div>
+<p>maka hasilnya seperti berikut:
+<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/cpp/io1.png" alt="Penjelasan Gambar" style="max-width: 600px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+</p>
+<h3 id="penjelasan">Penjelasan</h3>
+<ul>
+<li>cin: Digunakan untuk mengambil input dari pengguna. Pada contoh ini, cin digunakan untuk menerima input angka dan menyimpannya dalam variabel angka.</li>
+<li>&ldquo;&raquo;&rdquo; : Operator ini digunakan untuk mengarahkan input dari cin ke variabel yang sesuai.</li>
+<li>cout: Digunakan untuk menampilkan pesan kepada pengguna.</li>
+</ul>
+<p>perlu kita ingat kembali ya &ldquo;std::&rdquo; adalah namespace dari standart library c++, jadi jika tidak menggunakan &ldquo;using namespace std;&rdquo; maka kamu harus memakai &ldquo;std::&rdquo; atau namespace setiap pemanggilan standart library.</p>
+<h3 id="contoh-lain">Contoh lain</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;string&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>string name;
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;masukan nama anda : &#34;</span>;
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cin <span style="color:#f92672">&gt;&gt;</span> name;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(name <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;dnan&#34;</span>)
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Hallo : &#34;</span> <span style="color:#f92672">&lt;&lt;</span> name <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>compile dan running programnya</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>$ g++ main.cpp
+</span></span><span style="display:flex;"><span>$ ./a.out</span></span></code></pre></div>
+<p>maka hasilnya seperti berikut:
+<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+    <img src="/images/cpp/io2.png" alt="Penjelasan Gambar" style="max-width: 600px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+</div>
+</p>
+<p>selamat kamu sudah mempelajari apa itu input dan output di c++, temukan materi c++ lain di <a href="https://catatandeveloper.id/tutorial/c++/">link berikut</a> 🎉🎉🎉</p>
+
+				<br>
+				<hr>
+				<tags>
+					
+					
+						
+						<a href="/tags/pemrograman">#pemrograman</a>
+						
+					
+						
+						<a href="/tags/c&#43;&#43;">#c&#43;&#43;</a>
+						
+					
+					</p>
+				</tags>
+			</article>
+		</div>
+		<div class="col-sm-4">
+			
+<div class=" shadow mb-5 p-3 rounded" >
+	<div class="card-body">
+		<h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5>
+
+		
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+
+		
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/git" class="btn btn-outline-success zoom-effect">
+					git (4)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/windows" class="btn btn-outline-success zoom-effect">
+					windows (7)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/linux" class="btn btn-outline-success zoom-effect">
+					linux (2)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/pemrograman" class="btn btn-outline-success zoom-effect">
+					pemrograman (13)
+				</a>
+			</div>
+		
+			<div class="my-2 new-category-ads text-center">
+				<a href="/categories/sistem-operasi" class="btn btn-outline-success zoom-effect">
+					sistem operasi (3)
+				</a>
+			</div>
+		
+		
+	</div>
+</div>
+
+
+<div class="p-3">
+	
+
+
+	
+	
+</div>
+
+
+
+<div class="p-3">
+	
+
+
+	
+	
+</div>	 
+
+		</div>
+	</div>
+</div>
+
+    </main>
+    <footer>
+        <div class="">
+            Build with ❤️ using Hugo
+        </div>
+        <div class="footer-copy">
+            &copy; 2025 Catatan Developer. All Rights Reserved.
+        </div>
+    </footer>
+  
+
+    
+    
+</body>
+</html>
