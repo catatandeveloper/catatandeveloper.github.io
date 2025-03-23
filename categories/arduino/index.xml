@@ -1,33 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Arduino on Catatan Developer</title>
-    <link>http://localhost:1313/categories/arduino/</link>
-    <description>Recent content in Arduino on Catatan Developer</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 19 Dec 2024 00:54:55 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/arduino/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Memulai Arduino</title>
-      <link>http://localhost:1313/memulai-arduino/</link>
-      <pubDate>Thu, 19 Dec 2024 00:54:55 +0700</pubDate>
-      <guid>http://localhost:1313/memulai-arduino/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/arduino.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Sebelum kita membahas arduino ada baiknya kamu mempelajari tentang c++ &lt;a href=&#34;https://catatandeveloper.id/tutorial/c++/&#34;&gt;disini&lt;/a&gt; terlebih dahulu biar lebih mudah untuk memahaminya.&lt;/p&gt;&#xA;&lt;h3 id=&#34;arduino-ide&#34;&gt;Arduino IDE&lt;/h3&gt;&#xA;&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/arduino/empty.png&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 600px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;pada gambar diatas bisa dilihat bahwa arduino memiliki default function setup dan loop.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;void setup() digunakan untuk melakukan inisialisi program seperti sensor, servo maupun komponen lain seperti lcd.&lt;/li&gt;&#xA;&lt;li&gt;void loop() digunakan untuk menjalakan program terus menerus secara tak hingga, ini berarti selama arduino menyala maka program loop akan berjalan&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;contoh-program&#34;&gt;Contoh Program&lt;/h3&gt;&#xA;&lt;p&gt;mari kita coba untuk melakukan program sederhana di arduino dengan menyalakan lampu LED yang tertanam pada arduino&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pengenalan Arduino</title>
-      <link>http://localhost:1313/pengenalan-arduino/</link>
-      <pubDate>Tue, 17 Dec 2024 22:31:42 +0700</pubDate>
-      <guid>http://localhost:1313/pengenalan-arduino/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/arduino.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Arduino adalah sebuah platform perangkat keras dan perangkat lunak sumber terbuka yang memungkinkan Anda untuk membuat proyek elektronik dengan mudah. Platform ini dirancang agar dapat digunakan oleh para penggemar, pemula, maupun profesional untuk mengembangkan aplikasi elektronika, dari yang sederhana hingga yang lebih kompleks.&lt;/p&gt;&#xA;&lt;h3 id=&#34;apa-itu-arduino&#34;&gt;Apa itu Arduino?&lt;/h3&gt;&#xA;&lt;p&gt;Arduino adalah mikrokontroler atau papan sirkuit cetak (PCB) yang dapat diprogram untuk melakukan berbagai tugas, seperti mengontrol motor, membaca sensor, atau menghubungkan perangkat lain. Papan Arduino ini berfungsi sebagai &amp;ldquo;otak&amp;rdquo; dalam proyek elektronika, yang memungkinkan pengguna untuk memprogramnya untuk melakukan berbagai perintah sesuai dengan input yang diterima.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cara Install Arduino IDE 2.* Pada Ubuntu</title>
-      <link>http://localhost:1313/cara-install-arduino2-pada-ubuntu/</link>
-      <pubDate>Mon, 09 Dec 2024 23:10:56 +0700</pubDate>
-      <guid>http://localhost:1313/cara-install-arduino2-pada-ubuntu/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/arduino.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Arduino versi 2.* adalah IDE dengan versi yang sangat baik bagi pengembang elektronika, hal ini karena arduino v2 ini memiliki fitur-fitur yang sangat berguna bagi developer,  berikut fitur-fitur Arduino v2 yang perlu kamu tau:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Editor Modern:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Antarmuka lebih bersih, berbasis framework Eclipse Theia, dengan tema gelap/terang.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Autocomplete dan IntelliSense:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mendukung pelengkapan kode otomatis dan informasi fungsi secara langsung, kamu bisa mengaktifkanya dengan mengklik check pada Editor Quick Suggestions pada preferences&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arduino on Catatan Developer</title><link>https://catatandeveloper.id/categories/arduino/</link><description>Recent content in Arduino on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Dec 2024 00:54:55 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Memulai Arduino</title><link>https://catatandeveloper.id/memulai-arduino/</link><pubDate>Thu, 19 Dec 2024 00:54:55 +0700</pubDate><guid>https://catatandeveloper.id/memulai-arduino/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Sebelum kita membahas arduino ada baiknya kamu mempelajari tentang c++ &lt;a href="https://catatandeveloper.id/tutorial/c++/">disini&lt;/a> terlebih dahulu biar lebih mudah untuk memahaminya.&lt;/p>
+&lt;h3 id="arduino-ide">Arduino IDE&lt;/h3>
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/arduino/empty.png" alt="Penjelasan Gambar" style="max-width: 600px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>pada gambar diatas bisa dilihat bahwa arduino memiliki default function setup dan loop.&lt;/p>
+&lt;ul>
+&lt;li>void setup() digunakan untuk melakukan inisialisi program seperti sensor, servo maupun komponen lain seperti lcd.&lt;/li>
+&lt;li>void loop() digunakan untuk menjalakan program terus menerus secara tak hingga, ini berarti selama arduino menyala maka program loop akan berjalan&lt;/li>
+&lt;/ul>
+&lt;h3 id="contoh-program">Contoh Program&lt;/h3>
+&lt;p>mari kita coba untuk melakukan program sederhana di arduino dengan menyalakan lampu LED yang tertanam pada arduino&lt;/p></description></item><item><title>Pengenalan Arduino</title><link>https://catatandeveloper.id/pengenalan-arduino/</link><pubDate>Tue, 17 Dec 2024 22:31:42 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-arduino/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Arduino adalah sebuah platform perangkat keras dan perangkat lunak sumber terbuka yang memungkinkan Anda untuk membuat proyek elektronik dengan mudah. Platform ini dirancang agar dapat digunakan oleh para penggemar, pemula, maupun profesional untuk mengembangkan aplikasi elektronika, dari yang sederhana hingga yang lebih kompleks.&lt;/p>
+&lt;h3 id="apa-itu-arduino">Apa itu Arduino?&lt;/h3>
+&lt;p>Arduino adalah mikrokontroler atau papan sirkuit cetak (PCB) yang dapat diprogram untuk melakukan berbagai tugas, seperti mengontrol motor, membaca sensor, atau menghubungkan perangkat lain. Papan Arduino ini berfungsi sebagai &amp;ldquo;otak&amp;rdquo; dalam proyek elektronika, yang memungkinkan pengguna untuk memprogramnya untuk melakukan berbagai perintah sesuai dengan input yang diterima.&lt;/p></description></item><item><title>Cara Install Arduino IDE 2.* Pada Ubuntu</title><link>https://catatandeveloper.id/cara-install-arduino2-pada-ubuntu/</link><pubDate>Mon, 09 Dec 2024 23:10:56 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-arduino2-pada-ubuntu/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Arduino versi 2.* adalah IDE dengan versi yang sangat baik bagi pengembang elektronika, hal ini karena arduino v2 ini memiliki fitur-fitur yang sangat berguna bagi developer, berikut fitur-fitur Arduino v2 yang perlu kamu tau:&lt;/p>
+&lt;ul>
+&lt;li>Editor Modern:&lt;/li>
+&lt;/ul>
+&lt;p>Antarmuka lebih bersih, berbasis framework Eclipse Theia, dengan tema gelap/terang.&lt;/p>
+&lt;ul>
+&lt;li>Autocomplete dan IntelliSense:&lt;/li>
+&lt;/ul>
+&lt;p>Mendukung pelengkapan kode otomatis dan informasi fungsi secara langsung, kamu bisa mengaktifkanya dengan mengklik check pada Editor Quick Suggestions pada preferences&lt;/p></description></item></channel></rss>

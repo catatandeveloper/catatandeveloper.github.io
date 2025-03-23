@@ -1,61 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Windows on Catatan Developer</title>
-    <link>http://localhost:1313/categories/windows/</link>
-    <description>Recent content in Windows on Catatan Developer</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 21:25:15 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/windows/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pengenalan Jenis Windows 10 Dan Perbedaannya</title>
-      <link>http://localhost:1313/pengenalan-jenis-windows-10/</link>
-      <pubDate>Mon, 20 Jan 2025 21:25:15 +0700</pubDate>
-      <guid>http://localhost:1313/pengenalan-jenis-windows-10/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/win10.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Windows 10 adalah sistem operasi yang dikembangkan oleh Microsoft dan merupakan bagian dari keluarga Windows NT. Sistem operasi ini dirancang untuk mendukung berbagai jenis perangkat, seperti komputer desktop, laptop, tablet, hingga perangkat IoT (Internet of Things). Windows 10 pertama kali dirilis pada 29 Juli 2015 sebagai penerus dari Windows 8.1, dengan tujuan mengintegrasikan pengalaman pengguna di berbagai perangkat dan memperbaiki berbagai kekurangan dari versi sebelumnya.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Membersihkan Temporary File Windows</title>
-      <link>http://localhost:1313/membersihkan-temporary-file-windows/</link>
-      <pubDate>Sat, 11 Jan 2025 20:59:12 +0700</pubDate>
-      <guid>http://localhost:1313/membersihkan-temporary-file-windows/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/temp.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Temporary file atau file sementara di Windows adalah file yang dibuat oleh sistem operasi, aplikasi, atau program tertentu untuk menyimpan data sementara selama operasi tertentu berlangsung. File ini biasanya digunakan untuk menyimpan informasi sementara yang hanya diperlukan dalam waktu singkat, misalnya selama pengeditan file, pengolahan data, atau instalasi software.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fungsi-temporary-file&#34;&gt;&lt;strong&gt;Fungsi Temporary File&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;File sementara digunakan untuk menyimpan data sementara yang dibutuhkan oleh aplikasi selama proses berjalan, misalnya:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Menjaga Komputer/Laptop Dari Masalah Bluescreen</title>
-      <link>http://localhost:1313/menjaga-komputer-laptop-dari-masalah-bluescreen/</link>
-      <pubDate>Sat, 11 Jan 2025 20:10:40 +0700</pubDate>
-      <guid>http://localhost:1313/menjaga-komputer-laptop-dari-masalah-bluescreen/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/win-health.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Blue Screen of Death (BSOD) adalah istilah umum untuk layar biru yang muncul ketika Windows mengalami kesalahan sistem kritis. BSOD menunjukkan bahwa sistem operasi tidak dapat melanjutkan operasi dengan aman karena adanya masalah yang serius, seperti kegagalan perangkat keras, konflik driver, atau bug perangkat lunak.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ciri-ciri-blue-screen&#34;&gt;&lt;strong&gt;Ciri-Ciri Blue Screen&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Layar Biru:&lt;/strong&gt;&#xA;Muncul dengan teks putih atau kode kesalahan.&#xA;&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/win-health1.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 640px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Penjelasan Diskpart Dan Cara Menggunakannya</title>
-      <link>http://localhost:1313/penjelasan-diskpart-dan-cara-menggunakannya/</link>
-      <pubDate>Sun, 05 Jan 2025 16:30:34 +0700</pubDate>
-      <guid>http://localhost:1313/penjelasan-diskpart-dan-cara-menggunakannya/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/diskpart.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Diskpart adalah utilitas baris perintah bawaan Windows yang digunakan untuk mengelola disk, partisi, dan volume. Alat ini lebih kuat dibandingkan Disk Management GUI karena memberikan akses langsung ke fungsi manajemen disk tingkat rendah.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fungsi-diskpart&#34;&gt;&lt;strong&gt;Fungsi Diskpart&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;div class=&#34;table-responsive&#34;&gt;&#xA;    &lt;table&gt;&#xA;        &#xA;&lt;tr&gt;&#xA;    &lt;th&gt;Fungsi&lt;/th&gt;&#xA;    &lt;th&gt;Deskripsi&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;    &lt;td&gt;Membuat Partisi&lt;/td&gt;&#xA;    &lt;td&gt;Membagi disk menjadi beberapa bagian (partisi).&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;    &lt;td&gt;Menghapus Partisi&lt;/td&gt;&#xA;    &lt;td&gt;Menghapus data dan struktur partisi dari disk.&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;    &lt;td&gt;Memformat Disk/Partisi&lt;/td&gt;&#xA;    &lt;td&gt;Mengatur file system seperti NTFS, FAT32, atau exFAT.&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;    &lt;td&gt;Mengubah Atribut Disk&lt;/td&gt;&#xA;    &lt;td&gt;Mengelola atribut, seperti menjadikan partisi aktif, mengatur read-only, atau atribut lainnya.&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;    &lt;td&gt;Membersihkan Disk&lt;/td&gt;&#xA;    &lt;td&gt;Menghapus seluruh data, termasuk partisi dan struktur disk (mengembalikan ke keadaan kosong).&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;    &lt;td&gt;Mengkonversi Format Disk&lt;/td&gt;&#xA;    &lt;td&gt;Mengubah format disk antara GPT (GUID Partition Table) dan MBR (Master Boot Record).&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;    &lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt; &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Penjelasan Regedit dan Cara Menggunakannya</title>
-      <link>http://localhost:1313/penjelasan-regedit-dan-cara-menggunakannya/</link>
-      <pubDate>Sun, 05 Jan 2025 15:45:13 +0700</pubDate>
-      <guid>http://localhost:1313/penjelasan-regedit-dan-cara-menggunakannya/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/regedit.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Regedit adalah singkatan dari Registry Editor, sebuah alat di Windows yang digunakan untuk melihat, mengedit, atau mengelola entri-entri dalam Windows Registry. Windows Registry adalah basis data hierarkis yang menyimpan pengaturan dan konfigurasi sistem operasi, perangkat keras, perangkat lunak, dan akun pengguna.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fungsi-utama-regedit&#34;&gt;&lt;strong&gt;Fungsi Utama Regedit&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Melihat dan Mengedit Pengaturan Sistem:&#xA;Digunakan untuk mengubah pengaturan sistem yang tidak tersedia melalui antarmuka grafis (GUI).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Penjelasan DxDiag Dan Cara Menggunakannya</title>
-      <link>http://localhost:1313/penjelasan-dxdiag-dan-cara-menggunakannya/</link>
-      <pubDate>Sat, 04 Jan 2025 22:44:57 +0700</pubDate>
-      <guid>http://localhost:1313/penjelasan-dxdiag-dan-cara-menggunakannya/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/dxdiag.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;DxDiag adalah singkatan dari DirectX Diagnostic Tool, sebuah alat bawaan Windows yang digunakan untuk mendiagnosis dan memecahkan masalah yang berkaitan dengan DirectX. DirectX adalah kumpulan antarmuka pemrograman aplikasi (API) yang dikembangkan oleh Microsoft, yang berfungsi untuk mengelola tugas-tugas multimedia seperti grafis game dan pemutaran video.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fungsi-dxdiag&#34;&gt;&lt;strong&gt;Fungsi DxDiag&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Informasi Sistem.&#xA;DxDiag memberikan rincian tentang spesifikasi sistem Anda, termasuk:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Versi sistem operasi.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Prosesor (CPU).&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Memori (RAM).&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Informasi komputer (nama dan model).&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cara Non-Aktifkan Windows Update Otomatis</title>
-      <link>http://localhost:1313/cara-nonaktifkan-windows-update-otomatis/</link>
-      <pubDate>Fri, 03 Jan 2025 21:55:20 +0700</pubDate>
-      <guid>http://localhost:1313/cara-nonaktifkan-windows-update-otomatis/</guid>
-      <description>&lt;div class=&#34;image-container loading-image size2&#34; style=&#34;display: flex; justify-content: center; align-items: center;&#34; &gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/windows/windows-update.jpg&#34; alt=&#34;Penjelasan Gambar&#34; style=&#34;max-width: 900px; width: 100%; height: auto;&#34; class=&#34;my-3 rounded&#34; onload=&#34;image_loaded(this)&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Windows Update otomatis di Windows 10 adalah fitur bawaan yang dirancang untuk memastikan sistem operasi selalu diperbarui dengan patch keamanan terbaru, pembaruan perangkat lunak, dan perbaikan bug. Dengan fitur ini, Windows secara otomatis mengunduh dan menginstal pembaruan tanpa memerlukan intervensi pengguna.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Keuntungan Windows Update Otomatis:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Keamanan Terjaga: Patch keamanan diterapkan segera setelah dirilis, melindungi sistem dari ancaman terbaru&lt;/li&gt;&#xA;&lt;li&gt;Performa Optimal: Pembaruan sering kali mencakup peningkatan kinerja dan perbaikan bug.&lt;/li&gt;&#xA;&lt;li&gt;Kompatibilitas Perangkat: Pembaruan driver membantu memastikan perangkat keras bekerja dengan baik.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Kekurangan Windows Update Otomatis:&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/categories/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2025 21:25:15 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Pengenalan Jenis Windows 10 Dan Perbedaannya</title><link>https://catatandeveloper.id/pengenalan-jenis-windows-10/</link><pubDate>Mon, 20 Jan 2025 21:25:15 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-jenis-windows-10/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/win10.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Windows 10 adalah sistem operasi yang dikembangkan oleh Microsoft dan merupakan bagian dari keluarga Windows NT. Sistem operasi ini dirancang untuk mendukung berbagai jenis perangkat, seperti komputer desktop, laptop, tablet, hingga perangkat IoT (Internet of Things). Windows 10 pertama kali dirilis pada 29 Juli 2015 sebagai penerus dari Windows 8.1, dengan tujuan mengintegrasikan pengalaman pengguna di berbagai perangkat dan memperbaiki berbagai kekurangan dari versi sebelumnya.&lt;/p></description></item><item><title>Membersihkan Temporary File Windows</title><link>https://catatandeveloper.id/membersihkan-temporary-file-windows/</link><pubDate>Sat, 11 Jan 2025 20:59:12 +0700</pubDate><guid>https://catatandeveloper.id/membersihkan-temporary-file-windows/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/temp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Temporary file atau file sementara di Windows adalah file yang dibuat oleh sistem operasi, aplikasi, atau program tertentu untuk menyimpan data sementara selama operasi tertentu berlangsung. File ini biasanya digunakan untuk menyimpan informasi sementara yang hanya diperlukan dalam waktu singkat, misalnya selama pengeditan file, pengolahan data, atau instalasi software.&lt;/p>
+&lt;h2 id="fungsi-temporary-file">&lt;strong>Fungsi Temporary File&lt;/strong>&lt;/h2>
+&lt;p>File sementara digunakan untuk menyimpan data sementara yang dibutuhkan oleh aplikasi selama proses berjalan, misalnya:&lt;/p></description></item><item><title>Menjaga Komputer/Laptop Dari Masalah Bluescreen</title><link>https://catatandeveloper.id/menjaga-komputer-laptop-dari-masalah-bluescreen/</link><pubDate>Sat, 11 Jan 2025 20:10:40 +0700</pubDate><guid>https://catatandeveloper.id/menjaga-komputer-laptop-dari-masalah-bluescreen/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/win-health.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Blue Screen of Death (BSOD) adalah istilah umum untuk layar biru yang muncul ketika Windows mengalami kesalahan sistem kritis. BSOD menunjukkan bahwa sistem operasi tidak dapat melanjutkan operasi dengan aman karena adanya masalah yang serius, seperti kegagalan perangkat keras, konflik driver, atau bug perangkat lunak.&lt;/p>
+&lt;h2 id="ciri-ciri-blue-screen">&lt;strong>Ciri-Ciri Blue Screen&lt;/strong>&lt;/h2>
+&lt;p>&lt;strong>Layar Biru:&lt;/strong>
+Muncul dengan teks putih atau kode kesalahan.
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/win-health1.jpg" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+&lt;/p></description></item><item><title>Penjelasan Diskpart Dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-diskpart-dan-cara-menggunakannya/</link><pubDate>Sun, 05 Jan 2025 16:30:34 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-diskpart-dan-cara-menggunakannya/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/diskpart.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Diskpart adalah utilitas baris perintah bawaan Windows yang digunakan untuk mengelola disk, partisi, dan volume. Alat ini lebih kuat dibandingkan Disk Management GUI karena memberikan akses langsung ke fungsi manajemen disk tingkat rendah.&lt;/p>
+&lt;h2 id="fungsi-diskpart">&lt;strong>Fungsi Diskpart&lt;/strong>&lt;/h2>
+&lt;div class="table-responsive">
+ &lt;table>
+ 
+&lt;tr>
+ &lt;th>Fungsi&lt;/th>
+ &lt;th>Deskripsi&lt;/th>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Membuat Partisi&lt;/td>
+ &lt;td>Membagi disk menjadi beberapa bagian (partisi).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Menghapus Partisi&lt;/td>
+ &lt;td>Menghapus data dan struktur partisi dari disk.&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Memformat Disk/Partisi&lt;/td>
+ &lt;td>Mengatur file system seperti NTFS, FAT32, atau exFAT.&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Mengubah Atribut Disk&lt;/td>
+ &lt;td>Mengelola atribut, seperti menjadikan partisi aktif, mengatur read-only, atau atribut lainnya.&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Membersihkan Disk&lt;/td>
+ &lt;td>Menghapus seluruh data, termasuk partisi dan struktur disk (mengembalikan ke keadaan kosong).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>Mengkonversi Format Disk&lt;/td>
+ &lt;td>Mengubah format disk antara GPT (GUID Partition Table) dan MBR (Master Boot Record).&lt;/td>
+&lt;/tr>
+
+ &lt;/table>
+&lt;/div>
+
+&lt;p> &lt;/p></description></item><item><title>Penjelasan Regedit dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</link><pubDate>Sun, 05 Jan 2025 15:45:13 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-regedit-dan-cara-menggunakannya/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/regedit.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Regedit adalah singkatan dari Registry Editor, sebuah alat di Windows yang digunakan untuk melihat, mengedit, atau mengelola entri-entri dalam Windows Registry. Windows Registry adalah basis data hierarkis yang menyimpan pengaturan dan konfigurasi sistem operasi, perangkat keras, perangkat lunak, dan akun pengguna.&lt;/p>
+&lt;h2 id="fungsi-utama-regedit">&lt;strong>Fungsi Utama Regedit&lt;/strong>&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Melihat dan Mengedit Pengaturan Sistem:
+Digunakan untuk mengubah pengaturan sistem yang tidak tersedia melalui antarmuka grafis (GUI).&lt;/p></description></item><item><title>Penjelasan DxDiag Dan Cara Menggunakannya</title><link>https://catatandeveloper.id/penjelasan-dxdiag-dan-cara-menggunakannya/</link><pubDate>Sat, 04 Jan 2025 22:44:57 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-dxdiag-dan-cara-menggunakannya/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/dxdiag.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>DxDiag adalah singkatan dari DirectX Diagnostic Tool, sebuah alat bawaan Windows yang digunakan untuk mendiagnosis dan memecahkan masalah yang berkaitan dengan DirectX. DirectX adalah kumpulan antarmuka pemrograman aplikasi (API) yang dikembangkan oleh Microsoft, yang berfungsi untuk mengelola tugas-tugas multimedia seperti grafis game dan pemutaran video.&lt;/p>
+&lt;h2 id="fungsi-dxdiag">&lt;strong>Fungsi DxDiag&lt;/strong>&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Informasi Sistem.
+DxDiag memberikan rincian tentang spesifikasi sistem Anda, termasuk:
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>- Versi sistem operasi.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Prosesor (CPU).
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Memori (RAM).
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Informasi komputer (nama dan model).&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Cara Non-Aktifkan Windows Update Otomatis</title><link>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</link><pubDate>Fri, 03 Jan 2025 21:55:20 +0700</pubDate><guid>https://catatandeveloper.id/cara-nonaktifkan-windows-update-otomatis/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/windows-update.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Windows Update otomatis di Windows 10 adalah fitur bawaan yang dirancang untuk memastikan sistem operasi selalu diperbarui dengan patch keamanan terbaru, pembaruan perangkat lunak, dan perbaikan bug. Dengan fitur ini, Windows secara otomatis mengunduh dan menginstal pembaruan tanpa memerlukan intervensi pengguna.&lt;/p>
+&lt;p>&lt;strong>Keuntungan Windows Update Otomatis:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Keamanan Terjaga: Patch keamanan diterapkan segera setelah dirilis, melindungi sistem dari ancaman terbaru&lt;/li>
+&lt;li>Performa Optimal: Pembaruan sering kali mencakup peningkatan kinerja dan perbaikan bug.&lt;/li>
+&lt;li>Kompatibilitas Perangkat: Pembaruan driver membantu memastikan perangkat keras bekerja dengan baik.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Kekurangan Windows Update Otomatis:&lt;/strong>&lt;/p></description></item></channel></rss>

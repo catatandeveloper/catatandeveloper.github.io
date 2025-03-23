@@ -1,360 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="UTF-8">
-    <title>Function C&#43;&#43; - Catatan Developer</title>
-    <link rel="icon" type="image/png" href="http://localhost:1313/images/logo_144.png">
-    
-    <meta name="description" content="memahami function di c&#43;&#43; dengan penjelasan yang mudah di pahami">
-    <meta name="keywords" content="pemrograman, c&#43;&#43;, developer">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="http://localhost:1313/function-c&#43;&#43;/">
-
-    <meta name="google-site-verification" content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w" />
-    
-    
-    <meta property="og:title" content="Function C&#43;&#43;">
-    <meta property="og:description" content="memahami function di c&#43;&#43; dengan penjelasan yang mudah di pahami">
-    <meta property="og:url" content="http://localhost:1313/function-c&#43;&#43;/">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="http://localhost:1313/images/cpp.jpg">
-
-
-    
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Function C&#43;&#43;">
-    <meta name="twitter:description" content="memahami function di c&#43;&#43; dengan penjelasan yang mudah di pahami">
-    <meta name="twitter:image" content="http://localhost:1313/images/cpp.jpg">
-
-    
-    
-
-  
-    
-    
-  
-
-  
-    
-    
-  
-
-
-
-  <link rel="stylesheet" href="/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css">
-
-  <link rel="stylesheet" href="/css/style.min.37e86473927ef03d6df7335a152389af2e3803e49a6d03f3131c6d8c6370e361.css">
-
-
-    <script>
-        function image_loaded(img) {
-            setTimeout(() => {
-                img.classList.add('loaded');
-                const container = img.parentElement; 
-                container.classList.remove('loading-image');
-
-                container.classList.remove('size0');
-                container.classList.remove('size1');
-                container.classList.remove('size2');
-            }, 2000); 
-            
-        }
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin="anonymous"></script>
-    <script type="application/ld+json">
-    {"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Danu Andrean"},"datePublished":"05-01-2025","icon":"http://localhost:1313/images/logo_144.png","image":"http://localhost:1313/images/cpp.jpg","name":"Function C++"}
-</script>
-
-</head>
-<body>
-    <header class="fixed-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid ">
-        <a class="navbar-brand text-white" href="/"> 
-            <img src="/images/logo.png" alt="" width="40"></img>
-            <span class="name-title mx-2">
-                Catatan Developer
-            </span>
-        </a>
-        
-        <div class=" navbar-expand  " id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-
-                
-                    
-                    
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="/tutorial/">Tutorials</a>
-                    </li>
-                
-                    
-                    
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="/issue/">Issues</a>
-                    </li>
-                
-                    
-                    
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="/about/">About</a>
-                    </li>
-                
-                    
-                    
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="/author/">Author</a>
-                    </li>
-                
-            
-            
-            </ul>
-        </div>
-    </div>
-</nav>
-        </div>
-    </header>
-    <main class="mb-5">
-
-        
-
-<div class="container">
-	<div class="row">
-		<div class="col-sm-8 mb-5">
-			<article class="shadow p-4 rounded">
-				<p class="title-post"> <a href="http://localhost:1313/author/danuandrean">Danu Andrean</a>, 05 Jan 2025</p>
-				<h2 class="my-3">
-					
-						Function C&#43;&#43;
-					
-				</h2>
-				<div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
-    <img src="/images/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-</div>
-
-<p>Function atau fungsi dalam C++ adalah blok kode yang dirancang untuk melakukan tugas tertentu. Fungsi digunakan untuk mengorganisasi program menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola. Dengan memanfaatkan fungsi, kamu dapat menghindari pengulangan kode, meningkatkan keterbacaan, dan mempermudah debugging.</p>
-<h3 id="struktur-dasar-fungsi-dalam-c">Struktur Dasar Fungsi dalam C++</h3>
-<p>Setiap fungsi dalam C++ memiliki struktur dasar seperti berikut:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span>tipe_data_pengembalian<span style="color:#f92672">&gt;</span> nama_fungsi(<span style="color:#f92672">&lt;</span>parameter<span style="color:#f92672">&gt;</span>) 
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Blok kode
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> nilai;
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-<ul>
-<li>&lt;tipe_data_pengembalian&gt;: Menentukan jenis data yang dikembalikan oleh fungsi (contoh: int, float, void, dll.).</li>
-<li>nama_fungsi: Nama yang unik untuk mengidentifikasi fungsi.</li>
-<li>&lt; parameter &gt;: Daftar variabel yang diterima oleh fungsi, dipisahkan dengan koma.</li>
-<li>return nilai;: Digunakan untuk mengembalikan hasil ke pemanggil fungsi (opsional untuk fungsi void).</li>
-</ul>
-<h3 id="contoh-fungsi-sederhana">Contoh Fungsi Sederhana</h3>
-<p>Berikut contoh fungsi untuk menjumlahkan dua bilangan:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Deklarasi fungsi
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">Add</span>(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b) 
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() 
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>, y <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> Add(x, y);
-</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Hasil penjumlahan: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> result <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-<h3 id="jenis-jenis-fungsi-dalam-c">Jenis-Jenis Fungsi dalam C++</h3>
-<h5 id="1-fungsi-void">1. Fungsi Void</h5>
-<p>Fungsi yang tidak mengembalikan nilai apapun:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">Show</span>() 
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Halo, Dunia!&#34;</span> <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-<h5 id="2-fungsi-rekursif">2. Fungsi Rekursif</h5>
-<p>Fungsi yang memanggil dirinya sendiri:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">Faktorial</span>(<span style="color:#66d9ef">int</span> n) 
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> n <span style="color:#f92672">*</span> Faktorial(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-<h5 id="3-fungsi-overloading">3. Fungsi Overloading</h5>
-<p>Fungsi dengan nama yang sama tetapi parameter berbeda:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">Add</span>(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b) 
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">double</span> <span style="color:#a6e22e">Add</span>(<span style="color:#66d9ef">double</span> a, <span style="color:#66d9ef">double</span> b) 
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-<h5 id="4-fungsi-lambda">4. Fungsi Lambda</h5>
-<p>Fungsi anonim yang digunakan untuk operasi sederhana:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>[ capture_list ] ( parameter_list ) <span style="color:#f92672">-&gt;</span> return_type {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// body
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};</span></span></code></pre></div>
-<p>Penjelasan setiap bagian:</p>
-<ul>
-<li>capture_list: Menentukan variabel dari lingkup sekitar yang dapat diakses dalam lambda.</li>
-<li>parameter_list: Daftar parameter (mirip dengan fungsi biasa).</li>
-<li>return_type: (Opsional) Jenis data yang dikembalikan oleh lambda. Jika diabaikan, akan ditentukan secara otomatis.</li>
-</ul>
-<h5 id="contoh">Contoh:</h5>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>, y <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">auto</span> add <span style="color:#f92672">=</span> [x, y]() {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y;
-</span></span><span style="display:flex;"><span>};
-</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Jumlah: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> add() <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;</span></span></code></pre></div>
-<p>Lambda sendiri diperkenalkan pertama kali di C++11 dan telah mengalami peningkatan di versi-versi berikutnya.</p>
-<h5 id="capture-list-pada-lambda">Capture List pada Lambda</h5>
-<p>capture_list menentukan bagaimana variabel dari lingkup luar dapat diakses di dalam lambda. Ada beberapa cara menangkap variabel:</p>
-<ul>
-<li><strong>[ ]</strong>: Tidak menangkap variabel apa pun.</li>
-<li>[=]: Menangkap semua variabel di lingkup luar dengan nilai.</li>
-<li>[&amp;]: Menangkap semua variabel di lingkup luar dengan referensi.</li>
-<li>[variable]: Menangkap variabel tertentu dengan nilai.</li>
-<li>[&amp;variable]: Menangkap variabel tertentu dengan referensi.</li>
-</ul>
-<h5 id="contoh-1">Contoh:</h5>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>, b <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Menangkap dengan nilai
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">auto</span> lambda1 <span style="color:#f92672">=</span> [<span style="color:#f92672">=</span>]() {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b; <span style="color:#75715e">// a dan b hanya dapat dibaca
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Menangkap dengan referensi
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">auto</span> lambda2 <span style="color:#f92672">=</span> [<span style="color:#f92672">&amp;</span>]() {
-</span></span><span style="display:flex;"><span>    a <span style="color:#f92672">+=</span> <span style="color:#ae81ff">10</span>; <span style="color:#75715e">// a dapat diubah
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
-</span></span><span style="display:flex;"><span>};
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Lambda1: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> lambda1() <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
-</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Lambda2: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> lambda2() <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;</span></span></code></pre></div>
-<h3 id="kesimpulan">Kesimpulan</h3>
-<p>Fungsi adalah salah satu konsep dasar dalam pemrograman C++ yang sangat penting untuk dipahami. Dengan memahami fungsi, kamu dapat membuat program yang lebih terstruktur, efisien, dan mudah di-maintain. Jangan ragu untuk bereksperimen dengan berbagai jenis fungsi untuk menyelesaikan berbagai masalah pemrograman!🎉🎉🎉</p>
-
-				<br>
-				<hr>
-				<tags>
-					
-					
-						
-						<a href="/tags/pemrograman">#pemrograman</a>
-						
-					
-						
-						<a href="/tags/c&#43;&#43;">#c&#43;&#43;</a>
-						
-					
-					</p>
-				</tags>
-			</article>
-		</div>
-		<div class="col-sm-4">
-			
-<div class=" shadow mb-5 p-3 rounded" >
-	<div class="card-body">
-		<h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5>
-
-		
-		
-			
-			
-		
-			
-			
-		
-			
-			
-		
-			
-			
-		
-			
-			
-		
-			
-			
-		
-			
-			
-		
-			
-			
-		
-
-		
-		
-			<div class="my-2 new-category-ads text-center">
-				<a href="/categories/git" class="btn btn-outline-success zoom-effect">
-					git (4)
-				</a>
-			</div>
-		
-			<div class="my-2 new-category-ads text-center">
-				<a href="/categories/windows" class="btn btn-outline-success zoom-effect">
-					windows (7)
-				</a>
-			</div>
-		
-			<div class="my-2 new-category-ads text-center">
-				<a href="/categories/linux" class="btn btn-outline-success zoom-effect">
-					linux (2)
-				</a>
-			</div>
-		
-			<div class="my-2 new-category-ads text-center">
-				<a href="/categories/pemrograman" class="btn btn-outline-success zoom-effect">
-					pemrograman (13)
-				</a>
-			</div>
-		
-			<div class="my-2 new-category-ads text-center">
-				<a href="/categories/sistem-operasi" class="btn btn-outline-success zoom-effect">
-					sistem operasi (3)
-				</a>
-			</div>
-		
-		
-	</div>
-</div>
-
-
-<div class="p-3">
-	
-
-
-	
-	
-</div>
-
-
-
-<div class="p-3">
-	
-
-
-	
-	
-</div>	 
-
-		</div>
-	</div>
-</div>
-
-    </main>
-    <footer>
-        <div class="">
-            Build with ❤️ using Hugo
-        </div>
-        <div class="footer-copy">
-            &copy; 2025 Catatan Developer. All Rights Reserved.
-        </div>
-    </footer>
-  
-
-    
-    
-</body>
-</html>
+<!doctype html><html lang=en><head><meta charset=UTF-8><title>Function C++ - Catatan Developer</title>
+<link rel=icon type=image/png href=https://catatandeveloper.id/images/logo_144.png><meta name=description content="memahami function di c++ dengan penjelasan yang mudah di pahami"><meta name=keywords content="pemrograman,c++,developer"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=canonical href=https://catatandeveloper.id/function-c++/><meta name=google-site-verification content="3F0e2wpPxjmFV_LGmvEPN1b1RLAl8VK7sOdoAKcQP6w"><meta property="og:title" content="Function C++"><meta property="og:description" content="memahami function di c++ dengan penjelasan yang mudah di pahami"><meta property="og:url" content="https://catatandeveloper.id/function-c++/"><meta property="og:type" content="website"><meta property="og:image" content="https://catatandeveloper.id/images/cpp.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Function C++"><meta name=twitter:description content="memahami function di c++ dengan penjelasan yang mudah di pahami"><meta name=twitter:image content="https://catatandeveloper.id/images/cpp.jpg"><link rel=stylesheet href=/css/bootstrap.min.min.70cdfbd44d0f0d3056c16f83c6f34cd89d1ccbb70c9f81c628caa42864dca327.css><link rel=stylesheet href=/css/style.min.37e86473927ef03d6df7335a152389af2e3803e49a6d03f3131c6d8c6370e361.css><script>function image_loaded(e){setTimeout(()=>{e.classList.add("loaded");const t=e.parentElement;t.classList.remove("loading-image"),t.classList.remove("size0"),t.classList.remove("size1"),t.classList.remove("size2")},2e3)}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268065824874419" crossorigin=anonymous></script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Danu Andrean"},"datePublished":"05-01-2025","icon":"https://catatandeveloper.id/images/logo_144.png","image":"https://catatandeveloper.id/images/cpp.jpg","name":"Function C++"}</script></head><body><header class=fixed-top><div class=container><nav class="navbar navbar-expand-lg"><div class=container-fluid><a class="navbar-brand text-white" href=/><img src=/images/logo.png alt width=40></img>
+<span class="name-title mx-2">Catatan Developer</span></a><div class=navbar-expand id=navbarSupportedContent><ul class="navbar-nav mb-2 mb-lg-0"><li class=nav-item><a class="nav-link text-white" href=/tutorial/>Tutorials</a></li><li class=nav-item><a class="nav-link text-white" href=/issue/>Issues</a></li><li class=nav-item><a class="nav-link text-white" href=/about/>About</a></li><li class=nav-item><a class="nav-link text-white" href=/author/>Author</a></li></ul></div></div></nav></div></header><main class=mb-5><div class=container><div class=row><div class="col-sm-8 mb-5"><article class="shadow p-4 rounded"><p class=title-post><a href=https://catatandeveloper.id/author/danuandrean>Danu Andrean</a>, 05 Jan 2025</p><h2 class=my-3>Function C++</h2><div class="image-container loading-image size2" style=display:flex;justify-content:center;align-items:center><img src=/images/cpp.jpg alt="Penjelasan Gambar" style=max-width:900px;width:100%;height:auto class="my-3 rounded" onload=image_loaded(this)></div><p>Function atau fungsi dalam C++ adalah blok kode yang dirancang untuk melakukan tugas tertentu. Fungsi digunakan untuk mengorganisasi program menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola. Dengan memanfaatkan fungsi, kamu dapat menghindari pengulangan kode, meningkatkan keterbacaan, dan mempermudah debugging.</p><h3 id=struktur-dasar-fungsi-dalam-c>Struktur Dasar Fungsi dalam C++</h3><p>Setiap fungsi dalam C++ memiliki struktur dasar seperti berikut:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#f92672>&lt;</span>tipe_data_pengembalian<span style=color:#f92672>&gt;</span> nama_fungsi(<span style=color:#f92672>&lt;</span>parameter<span style=color:#f92672>&gt;</span>) 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Blok kode
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>return</span> nilai;
+</span></span><span style=display:flex><span>}</span></span></code></pre></div><ul><li>&lt;tipe_data_pengembalian>: Menentukan jenis data yang dikembalikan oleh fungsi (contoh: int, float, void, dll.).</li><li>nama_fungsi: Nama yang unik untuk mengidentifikasi fungsi.</li><li>&lt; parameter >: Daftar variabel yang diterima oleh fungsi, dipisahkan dengan koma.</li><li>return nilai;: Digunakan untuk mengembalikan hasil ke pemanggil fungsi (opsional untuk fungsi void).</li></ul><h3 id=contoh-fungsi-sederhana>Contoh Fungsi Sederhana</h3><p>Berikut contoh fungsi untuk menjumlahkan dua bilangan:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Deklarasi fungsi
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>Add</span>(<span style=color:#66d9ef>int</span> a, <span style=color:#66d9ef>int</span> b) 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> a <span style=color:#f92672>+</span> b;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> x <span style=color:#f92672>=</span> <span style=color:#ae81ff>5</span>, y <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> result <span style=color:#f92672>=</span> Add(x, y);
+</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Hasil penjumlahan: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> result <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>}</span></span></code></pre></div><h3 id=jenis-jenis-fungsi-dalam-c>Jenis-Jenis Fungsi dalam C++</h3><h5 id=1-fungsi-void>1. Fungsi Void</h5><p>Fungsi yang tidak mengembalikan nilai apapun:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>Show</span>() 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Halo, Dunia!&#34;</span> <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;
+</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=2-fungsi-rekursif>2. Fungsi Rekursif</h5><p>Fungsi yang memanggil dirinya sendiri:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>Faktorial</span>(<span style=color:#66d9ef>int</span> n) 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (n <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>1</span>) <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>1</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> n <span style=color:#f92672>*</span> Faktorial(n <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>);
+</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=3-fungsi-overloading>3. Fungsi Overloading</h5><p>Fungsi dengan nama yang sama tetapi parameter berbeda:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>Add</span>(<span style=color:#66d9ef>int</span> a, <span style=color:#66d9ef>int</span> b) 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> a <span style=color:#f92672>+</span> b;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>double</span> <span style=color:#a6e22e>Add</span>(<span style=color:#66d9ef>double</span> a, <span style=color:#66d9ef>double</span> b) 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> a <span style=color:#f92672>+</span> b;
+</span></span><span style=display:flex><span>}</span></span></code></pre></div><h5 id=4-fungsi-lambda>4. Fungsi Lambda</h5><p>Fungsi anonim yang digunakan untuk operasi sederhana:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span>[ capture_list ] ( parameter_list ) <span style=color:#f92672>-&gt;</span> return_type {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// body
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>};</span></span></code></pre></div><p>Penjelasan setiap bagian:</p><ul><li>capture_list: Menentukan variabel dari lingkup sekitar yang dapat diakses dalam lambda.</li><li>parameter_list: Daftar parameter (mirip dengan fungsi biasa).</li><li>return_type: (Opsional) Jenis data yang dikembalikan oleh lambda. Jika diabaikan, akan ditentukan secara otomatis.</li></ul><h5 id=contoh>Contoh:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>int</span> x <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>, y <span style=color:#f92672>=</span> <span style=color:#ae81ff>20</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>auto</span> add <span style=color:#f92672>=</span> [x, y]() {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> x <span style=color:#f92672>+</span> y;
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span>std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Jumlah: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> add() <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;</span></span></code></pre></div><p>Lambda sendiri diperkenalkan pertama kali di C++11 dan telah mengalami peningkatan di versi-versi berikutnya.</p><h5 id=capture-list-pada-lambda>Capture List pada Lambda</h5><p>capture_list menentukan bagaimana variabel dari lingkup luar dapat diakses di dalam lambda. Ada beberapa cara menangkap variabel:</p><ul><li><strong>[ ]</strong>: Tidak menangkap variabel apa pun.</li><li>[=]: Menangkap semua variabel di lingkup luar dengan nilai.</li><li>[&]: Menangkap semua variabel di lingkup luar dengan referensi.</li><li>[variable]: Menangkap variabel tertentu dengan nilai.</li><li>[&amp;variable]: Menangkap variabel tertentu dengan referensi.</li></ul><h5 id=contoh-1>Contoh:</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>int</span> a <span style=color:#f92672>=</span> <span style=color:#ae81ff>5</span>, b <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Menangkap dengan nilai
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>auto</span> lambda1 <span style=color:#f92672>=</span> [<span style=color:#f92672>=</span>]() {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> a <span style=color:#f92672>+</span> b; <span style=color:#75715e>// a dan b hanya dapat dibaca
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>};
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Menangkap dengan referensi
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>auto</span> lambda2 <span style=color:#f92672>=</span> [<span style=color:#f92672>&amp;</span>]() {
+</span></span><span style=display:flex><span>    a <span style=color:#f92672>+=</span> <span style=color:#ae81ff>10</span>; <span style=color:#75715e>// a dapat diubah
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>return</span> a <span style=color:#f92672>+</span> b;
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Lambda1: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> lambda1() <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;
+</span></span><span style=display:flex><span>std<span style=color:#f92672>::</span>cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Lambda2: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> lambda2() <span style=color:#f92672>&lt;&lt;</span> std<span style=color:#f92672>::</span>endl;</span></span></code></pre></div><h3 id=kesimpulan>Kesimpulan</h3><p>Fungsi adalah salah satu konsep dasar dalam pemrograman C++ yang sangat penting untuk dipahami. Dengan memahami fungsi, kamu dapat membuat program yang lebih terstruktur, efisien, dan mudah di-maintain. Jangan ragu untuk bereksperimen dengan berbagai jenis fungsi untuk menyelesaikan berbagai masalah pemrograman!🎉🎉🎉</p><br><hr><tags><a href=/tags/pemrograman>#pemrograman</a>
+<a href=/tags/c++>#c++</a></p></tags></article></div><div class=col-sm-4><div class="shadow mb-5 p-3 rounded"><div class=card-body><h5 class="card-title mb-3">Ada Kategori terbaru nih!</h5><div class="my-2 new-category-ads text-center"><a href=/categories/git class="btn btn-outline-success zoom-effect">git (4)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/windows class="btn btn-outline-success zoom-effect">windows (7)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/linux class="btn btn-outline-success zoom-effect">linux (2)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/pemrograman class="btn btn-outline-success zoom-effect">pemrograman (13)</a></div><div class="my-2 new-category-ads text-center"><a href=/categories/sistem-operasi class="btn btn-outline-success zoom-effect">sistem operasi (3)</a></div></div></div><div class=p-3></div><div class=p-3></div></div></div></div></main><footer><div>Build with ❤️ using Hugo</div><div class=footer-copy>&copy; 2025 Catatan Developer. All Rights Reserved.</div></footer></body></html>
