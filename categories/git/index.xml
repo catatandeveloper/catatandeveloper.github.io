@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Catatan Developer</title><link>https://catatandeveloper.id/categories/git/</link><description>Recent content in Git on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Apr 2025 09:28:08 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Memulai Git</title><link>https://catatandeveloper.id/memulai-git/</link><pubDate>Sat, 05 Apr 2025 09:28:08 +0700</pubDate><guid>https://catatandeveloper.id/memulai-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/gitvsgithub.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Catatan Developer</title><link>http://localhost:1313/categories/git/</link><description>Recent content in Git on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Apr 2025 09:28:08 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Memulai Git</title><link>http://localhost:1313/memulai-git/</link><pubDate>Sat, 05 Apr 2025 09:28:08 +0700</pubDate><guid>http://localhost:1313/memulai-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="http://localhost:1313/images/git/gitvsgithub.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;p>Sebelum memulai, pastikan Git sudah terinstal di sistem kalian. Jika belum, silahkan ikuti tutorial &lt;a href="https://catatandeveloper.id/tutorial/git/">Disini&lt;/a>.&lt;/p>
@@ -19,14 +19,14 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;p>pada terminal ketikan seperti berikut:
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ git init .&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Git vs Github</title><link>https://catatandeveloper.id/gitvsgithub/</link><pubDate>Sat, 15 Feb 2025 00:50:42 +0700</pubDate><guid>https://catatandeveloper.id/gitvsgithub/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/gitvsgithub.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ git init .&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Git vs Github</title><link>http://localhost:1313/gitvsgithub/</link><pubDate>Sat, 15 Feb 2025 00:50:42 +0700</pubDate><guid>http://localhost:1313/gitvsgithub/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="http://localhost:1313/images/git/gitvsgithub.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;p>Bagi para developer, istilah &amp;ldquo;Git&amp;rdquo; dan &amp;ldquo;GitHub&amp;rdquo; sering digunakan secara bersamaan, tetapi sebenarnya keduanya adalah hal yang berbeda. Dalam artikel ini, kita akan membahas perbedaan antara Git dan GitHub, serta bagaimana keduanya bekerja sama dalam pengembangan perangkat lunak.&lt;/p>
 &lt;h3 id="apa-itu-git">Apa Itu Git?&lt;/h3>
-&lt;p>Git adalah sistem kontrol versi (VCS - Version Control System) yang digunakan untuk melacak perubahan dalam kode sumber selama pengembangan perangkat lunak. Dengan Git, developer dapat:&lt;/p></description></item><item><title>Instalasi Git</title><link>https://catatandeveloper.id/instalasi-git/</link><pubDate>Fri, 24 Jan 2025 00:15:09 +0700</pubDate><guid>https://catatandeveloper.id/instalasi-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;p>Git adalah sistem kontrol versi (VCS - Version Control System) yang digunakan untuk melacak perubahan dalam kode sumber selama pengembangan perangkat lunak. Dengan Git, developer dapat:&lt;/p></description></item><item><title>Instalasi Git</title><link>http://localhost:1313/instalasi-git/</link><pubDate>Fri, 24 Jan 2025 00:15:09 +0700</pubDate><guid>http://localhost:1313/instalasi-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="http://localhost:1313/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;p>Git adalah salah satu sistem kontrol versi yang paling populer di kalangan developer. Dengan Git, Anda dapat melacak perubahan kode, bekerja secara kolaboratif, dan mengelola proyek dengan lebih baik. Dalam tutorial ini, kita akan membahas langkah-langkah instalasi Git di Windows, Linux dan Mac.&lt;/p>
@@ -41,118 +41,118 @@
 &lt;li>klik 2 kali pada file git&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/1.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/1.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/2.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/2.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>pilih lokasi folder yang di inginkan kemundian klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/3.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/3.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>checklist additional icons on the desktop klik next, ini bersifat opsional&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/4.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/4.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/5.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/5.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/6.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/6.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/7.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/7.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/8.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/8.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/9.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/9.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/10.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/10.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>pada tampilan diatas jika kalian memilih default git akan mengkonvert end of line atau &amp;ldquo;enter&amp;rdquo; menjadi CRLF, ini akan merusak file jika format sebelumnya berbeda, hal ini berpengaruh jika kamu berganti-ganti OS, contoh Windows ke Mac, karena secara default format file EOF mereka berbeda, jadi perlu di perhatikan untuk memilih opsi ini&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/11.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/11.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/12.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/12.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/13.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/13.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/14.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/14.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik next&lt;/li>
 &lt;/ul>
 &lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git/15.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+ &lt;img src="http://localhost:1313/images/git/15.PNG" alt="Penjelasan Gambar" style="max-width: 640px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;ul>
 &lt;li>klik install&lt;/li>
 &lt;/ul>
 &lt;h3 id="instalasi-git-di-linux">Instalasi Git di Linux&lt;/h3>
-&lt;p>di linux kamu cukup mengetikan satu perintah seperti berikut:&lt;/p></description></item><item><title>Pengenalan Tentang Git</title><link>https://catatandeveloper.id/pengenalan-tentang-git/</link><pubDate>Sun, 19 Jan 2025 23:00:16 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-tentang-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;p>di linux kamu cukup mengetikan satu perintah seperti berikut:&lt;/p></description></item><item><title>Pengenalan Tentang Git</title><link>http://localhost:1313/pengenalan-tentang-git/</link><pubDate>Sun, 19 Jan 2025 23:00:16 +0700</pubDate><guid>http://localhost:1313/pengenalan-tentang-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="http://localhost:1313/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;h3 id="penjelasan-git">Penjelasan Git&lt;/h3>
-&lt;p>Git adalah sistem kontrol versi terdistribusi yang dirancang untuk membantu pengembang melacak perubahan dalam kode sumber mereka. Dengan Git, pengembang dapat bekerja secara bersamaan pada proyek yang sama tanpa khawatir akan kehilangan atau merusak pekerjaan satu sama lain. Git memungkinkan pengguna untuk menyimpan versi sebelumnya dari kode mereka sehingga mereka dapat kembali ke keadaan sebelumnya jika terjadi kesalahan.&lt;/p></description></item><item><title>Error: RPC failed curl git clone</title><link>https://catatandeveloper.id/error-rpc-failed-curl-git-clone/</link><pubDate>Sat, 14 Dec 2024 21:48:26 +0700</pubDate><guid>https://catatandeveloper.id/error-rpc-failed-curl-git-clone/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;p>Git adalah sistem kontrol versi terdistribusi yang dirancang untuk membantu pengembang melacak perubahan dalam kode sumber mereka. Dengan Git, pengembang dapat bekerja secara bersamaan pada proyek yang sama tanpa khawatir akan kehilangan atau merusak pekerjaan satu sama lain. Git memungkinkan pengguna untuk menyimpan versi sebelumnya dari kode mereka sehingga mereka dapat kembali ke keadaan sebelumnya jika terjadi kesalahan.&lt;/p></description></item><item><title>Error: RPC failed curl git clone</title><link>http://localhost:1313/error-rpc-failed-curl-git-clone/</link><pubDate>Sat, 14 Dec 2024 21:48:26 +0700</pubDate><guid>http://localhost:1313/error-rpc-failed-curl-git-clone/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="http://localhost:1313/images/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
 &lt;p>RPC di Git adalah singkatan dari Remote Procedure Call, yang merupakan salah satu mekanisme komunikasi yang digunakan Git untuk berinteraksi antara client dan server dalam operasi jaringan. Pada dasarnya, RPC memungkinkan Git client untuk meminta server menjalankan berbagai prosedur atau layanan tertentu, seperti mem-fetch, mem-push, atau melakukan query pada repositori.&lt;/p>
