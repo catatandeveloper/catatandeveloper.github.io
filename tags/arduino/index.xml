@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arduino on Catatan Developer</title><link>https://catatandeveloper.id/tags/arduino/</link><description>Recent content in Arduino on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 03:24:26 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>OTA, Update Firmware Otomatis Lewat Wifi Dengan Mudah</title><link>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</link><pubDate>Sun, 01 Jun 2025 03:24:26 +0700</pubDate><guid>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arduino on Catatan Developer</title><link>https://catatandeveloper.id/tags/arduino/</link><description>Recent content in Arduino on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 02 Jun 2025 15:22:25 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Mengakses Gps Module Neo-6m/Neo-7m Menggunakan Esp32</title><link>https://catatandeveloper.id/cara-mengakses-gps-module-neo-menggunakan-esp32/</link><pubDate>Mon, 02 Jun 2025 15:22:25 +0700</pubDate><guid>https://catatandeveloper.id/cara-mengakses-gps-module-neo-menggunakan-esp32/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/esp32/esp32-gps.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Modul GPS NEO-6M/NEO-7M adalah salah satu GPS receiver paling populer yang sering digunakan pada proyek Arduino atau ESP32. Dalam tutorial ini, kita akan belajar cara membaca data lokasi dari modul GPS menggunakan ESP32 dan library TinyGPS++.&lt;/p>
+&lt;h3 id="perlengkapan-yang-dibutuhkan">Perlengkapan yang Dibutuhkan&lt;/h3>
+&lt;ul>
+&lt;li>ESP32 Board (contoh: ESP32 DevKit v1)&lt;/li>
+&lt;li>Modul GPS NEO-6M&lt;/li>
+&lt;li>Kabel jumper&lt;/li>
+&lt;li>Software Arduino IDE&lt;/li>
+&lt;/ul>
+&lt;h3 id="wiring-esp32-ke-modul-gps-neo">Wiring ESP32 ke Modul GPS NEO&lt;/h3>
+&lt;p>Hubungkan pin modul GPS ke ESP32 sebagai berikut:
+&lt;div class="table-responsive">
+ &lt;table>
+ 
+&lt;tr>
+ &lt;th>GPS&lt;/th>
+ &lt;th>ESP32&lt;/th>
+&lt;/tr>
+&lt;tr>
+ &lt;td>VCC&lt;/td>
+ &lt;td>3.3v&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>GND&lt;/td>
+ &lt;td>GND&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>TX&lt;/td>
+ &lt;td>GPIO16 (RXD2)&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>RX&lt;/td>
+ &lt;td>GPIO17 (TXD2)&lt;/td>
+&lt;/tr>
+
+
+ &lt;/table>
+&lt;/div>
+&lt;/p></description></item><item><title>OTA, Update Firmware Otomatis Lewat Wifi Dengan Mudah</title><link>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</link><pubDate>Sun, 01 Jun 2025 03:24:26 +0700</pubDate><guid>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/esp32/esp32.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
