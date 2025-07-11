@@ -30,10 +30,10 @@ Dalam bahasa pemrograman C++, array dan string adalah dua tipe data penting yang
 &lt;p>Function atau fungsi dalam C++ adalah blok kode yang dirancang untuk melakukan tugas tertentu. Fungsi digunakan untuk mengorganisasi program menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola. Dengan memanfaatkan fungsi, kamu dapat menghindari pengulangan kode, meningkatkan keterbacaan, dan mempermudah debugging.&lt;/p>
 &lt;h3 id="struktur-dasar-fungsi-dalam-c">Struktur Dasar Fungsi dalam C++&lt;/h3>
 &lt;p>Setiap fungsi dalam C++ memiliki struktur dasar seperti berikut:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>tipe_data_pengembalian&lt;span style="color:#f92672">&amp;gt;&lt;/span> nama_fungsi(&lt;span style="color:#f92672">&amp;lt;&lt;/span>parameter&lt;span style="color:#f92672">&amp;gt;&lt;/span>) 
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff6ac1">&amp;lt;&lt;/span>tipe_data_pengembalian&lt;span style="color:#ff6ac1">&amp;gt;&lt;/span> nama_fungsi(&lt;span style="color:#ff6ac1">&amp;lt;&lt;/span>parameter&lt;span style="color:#ff6ac1">&amp;gt;&lt;/span>) 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Blok kode
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">return&lt;/span> nilai;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#78787e">// Blok kode
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#78787e">&lt;/span> &lt;span style="color:#ff6ac1">return&lt;/span> nilai;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;ul>
 &lt;li>&amp;lt;tipe_data_pengembalian&amp;gt;: Menentukan jenis data yang dikembalikan oleh fungsi (contoh: int, float, void, dll.).&lt;/li>
@@ -49,23 +49,23 @@ Dalam bahasa pemrograman C++, array dan string adalah dua tipe data penting yang
 Perulangan (looping) adalah salah satu konsep penting dalam pemrograman, termasuk di C++. Dengan menggunakan perulangan, kita dapat menjalankan suatu blok kode secara berulang hingga kondisi tertentu terpenuhi. Artikel ini akan membahas berbagai jenis perulangan di C++, beserta contohnya.&lt;/p>
 &lt;h3 id="perulangan-for">Perulangan for&lt;/h3>
 &lt;p>Perulangan for digunakan ketika jumlah iterasi sudah diketahui sebelumnya. Struktur dasarnya adalah:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> (inisialisasi; kondisi; perubahan) 
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff6ac1">for&lt;/span> (inisialisasi; kondisi; perubahan) 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// blok kode yang akan dijalankan
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#78787e">// blok kode yang akan dijalankan
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#78787e">&lt;/span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;h5 id="contoh-menampilkan-angka-1-hingga-5">Contoh: Menampilkan angka 1 hingga 5.:&lt;/h5>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() 
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#78787e">#include&lt;/span> &lt;span style="color:#78787e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#78787e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#78787e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#9aedfe">int&lt;/span> &lt;span style="color:#57c7ff">main&lt;/span>() 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;=&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>; i&lt;span style="color:#f92672">++&lt;/span>) 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff6ac1">for&lt;/span> (&lt;span style="color:#9aedfe">int&lt;/span> i &lt;span style="color:#ff6ac1">=&lt;/span> &lt;span style="color:#ff9f43">1&lt;/span>; i &lt;span style="color:#ff6ac1">&amp;lt;=&lt;/span> &lt;span style="color:#ff9f43">5&lt;/span>; i&lt;span style="color:#ff6ac1">++&lt;/span>) 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> i &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#ff6ac1">::&lt;/span>cout &lt;span style="color:#ff6ac1">&amp;lt;&amp;lt;&lt;/span> i &lt;span style="color:#ff6ac1">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#5af78e">&amp;#34; &amp;#34;&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff6ac1">return&lt;/span> &lt;span style="color:#ff9f43">0&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;h5 id="output">Output:&lt;/h5>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>1 2 3 4 5&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>1 2 3 4 5&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;h3 id="perulangan-while">Perulangan while&lt;/h3>
 &lt;p>Perulangan while digunakan ketika kita ingin mengevaluasi kondisi terlebih dahulu sebelum menjalankan blok kode. Struktur dasarnya adalah:&lt;/p></description></item><item><title>Kondisi C++</title><link>https://catatandeveloper.id/kondisi-c++/</link><pubDate>Sat, 04 Jan 2025 22:54:37 +0700</pubDate><guid>https://catatandeveloper.id/kondisi-c++/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/cpp/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
@@ -211,8 +211,8 @@ Perulangan (looping) adalah salah satu konsep penting dalam pemrograman, termasu
 
 &lt;hr>
 &lt;h3 id="contoh-deklarasi-variabel-di-c">Contoh deklarasi variabel di C++:&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> number; &lt;span style="color:#75715e">// deklarasi variabel bertipe integer
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> number &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>; &lt;span style="color:#75715e">// menetapkan nilai 5 pada variabel
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#9aedfe">int&lt;/span> number; &lt;span style="color:#78787e">// deklarasi variabel bertipe integer
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#78787e">&lt;/span> number &lt;span style="color:#ff6ac1">=&lt;/span> &lt;span style="color:#ff9f43">5&lt;/span>; &lt;span style="color:#78787e">// menetapkan nilai 5 pada variabel
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;p>Pada contoh di atas, variabel &amp;ldquo;number&amp;rdquo; dideklarasikan dengan tipe data int (integer), yang berarti hanya dapat menyimpan bilangan bulat. Kemudian, variabel &amp;ldquo;number&amp;rdquo; diberi nilai 5.&lt;/p></description></item><item><title>Memulai C++</title><link>https://catatandeveloper.id/memulai-c++/</link><pubDate>Tue, 17 Dec 2024 22:53:56 +0700</pubDate><guid>https://catatandeveloper.id/memulai-c++/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/cpp/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
@@ -221,15 +221,15 @@ Perulangan (looping) adalah salah satu konsep penting dalam pemrograman, termasu
 &lt;p>Sebelum kita membahas yang lain, kita perlu mencoba jalankan c++ terlebih dahulu untuk memastikan c++ berjalan di komputer kita dengan baik.&lt;/p>
 &lt;p>dimateri tentang c++ ini kami akan menggunakan OS linux, jika kalian menggunakan windows dan melakukan instalasi seperti dimateri kami maka caranya akan sama saja ya.&lt;/p>
 &lt;p>mari mencoba dengan menuliskan &amp;ldquo;Hello world&amp;rdquo; seperti kode berikut:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>()
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#78787e">#include&lt;/span> &lt;span style="color:#78787e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#78787e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#78787e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#9aedfe">int&lt;/span> &lt;span style="color:#57c7ff">main&lt;/span>()
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello World&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> std&lt;span style="color:#f92672">::&lt;/span>endl;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#ff6ac1">::&lt;/span>cout &lt;span style="color:#ff6ac1">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#5af78e">&amp;#34;Hello World&amp;#34;&lt;/span> &lt;span style="color:#ff6ac1">&amp;lt;&amp;lt;&lt;/span> std&lt;span style="color:#ff6ac1">::&lt;/span>endl;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff6ac1">return&lt;/span> &lt;span style="color:#ff9f43">0&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;p>compile kode c++ dengan cara:
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ g++ main.cpp&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Instalasi C++</title><link>https://catatandeveloper.id/instalasi-c++/</link><pubDate>Sun, 15 Dec 2024 22:00:10 +0700</pubDate><guid>https://catatandeveloper.id/instalasi-c++/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>$ g++ main.cpp&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Instalasi C++</title><link>https://catatandeveloper.id/instalasi-c++/</link><pubDate>Sun, 15 Dec 2024 22:00:10 +0700</pubDate><guid>https://catatandeveloper.id/instalasi-c++/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/cpp/cpp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
