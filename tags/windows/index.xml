@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/tags/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Jun 2025 14:43:46 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Mod, Bahaya atau Solusi?</title><link>https://catatandeveloper.id/windows-mod/</link><pubDate>Sat, 14 Jun 2025 14:43:46 +0700</pubDate><guid>https://catatandeveloper.id/windows-mod/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/tags/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Jul 2025 00:40:09 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Apa Itu WinPE Sergei Strelec?</title><link>https://catatandeveloper.id/winpe-sergei-strelec/</link><pubDate>Sat, 26 Jul 2025 00:40:09 +0700</pubDate><guid>https://catatandeveloper.id/winpe-sergei-strelec/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/strelec.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>WinPE Sergei Strelec adalah sebuah bootable live CD/USB berbasis Windows PE (Windows Preinstallation Environment) yang dibuat dan dikembangkan oleh Sergei Strelec, seorang pengembang independen dari Rusia. Tool ini dirancang untuk membantu dalam proses pemeliharaan sistem, perbaikan, backup/restore, diagnosa, dan manajemen data, terutama saat sistem operasi utama tidak bisa booting.&lt;/p>
+&lt;p>&lt;strong>🏗️ Arsitektur&lt;/strong>
+&lt;div class="table-responsive">
+ &lt;table>
+ 
+&lt;tr>
+ &lt;th>Fitur&lt;/th>
+ &lt;th>Keterangan&lt;/th>
+&lt;/tr>
+&lt;tr>
+ &lt;td>💻 Basis Sistem	&lt;/td>
+ &lt;td>Dibangun di atas Microsoft Windows Preinstallation Environment (WinPE).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>🏗️ Versi Windows&lt;/td>
+ &lt;td>Umumnya berbasis Windows 10/11 (tergantung versi Strelec yang digunakan).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>🧠 Arsitektur CPU&lt;/td>
+ &lt;td>Mendukung dua arsitektur utama: 32-bit (x86) dan 64-bit (x64).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>📦 Boot Mode&lt;/td>
+ &lt;td>Mendukung UEFI dan Legacy BIOS (CSM).&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>🔌 Portable Mode&lt;/td>
+ &lt;td>Didesain untuk dijalankan secara live (tanpa instalasi), dari USB/DVD/ISO.&lt;/td>
+&lt;/tr>
+&lt;tr>
+ &lt;td>🛠️ Modularitas&lt;/td>
+ &lt;td>Menggunakan banyak tool third-party dalam satu lingkungan pre-boot.&lt;/td>
+&lt;/tr>
+
+ &lt;/table>
+&lt;/div>
+&lt;/p></description></item><item><title>Windows Mod, Bahaya atau Solusi?</title><link>https://catatandeveloper.id/windows-mod/</link><pubDate>Sat, 14 Jun 2025 14:43:46 +0700</pubDate><guid>https://catatandeveloper.id/windows-mod/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/windows/win-mod.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
