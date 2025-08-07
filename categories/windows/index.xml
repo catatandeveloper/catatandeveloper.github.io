@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/categories/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Jul 2025 00:40:09 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Apa Itu WinPE Sergei Strelec?</title><link>https://catatandeveloper.id/winpe-sergei-strelec/</link><pubDate>Sat, 26 Jul 2025 00:40:09 +0700</pubDate><guid>https://catatandeveloper.id/winpe-sergei-strelec/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/categories/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 07 Aug 2025 20:00:03 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache RAM Laptop Menumpuk? Hapus Aja!</title><link>https://catatandeveloper.id/cache-ram/</link><pubDate>Thu, 07 Aug 2025 20:00:03 +0700</pubDate><guid>https://catatandeveloper.id/cache-ram/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
+ &lt;img src="https://catatandeveloper.id/images/windows/cacheram.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
+&lt;/div>
+
+&lt;p>Cache adalah tempat penyimpanan sementara untuk data yang sering digunakan,
+agar sistem bisa mengaksesnya lebih cepat daripada harus memproses ulang atau
+membaca dari penyimpanan utama (seperti hard disk atau bahkan RAM biasa).
+Sedangkan RAM adalah memori utama komputer/laptop yang menyimpan data dan
+instruksi yang sedang digunakan oleh sistem dan aplikasi secara aktif.&lt;/p>
+&lt;p>Membersihkan cache RAM pada laptop bisa membantu meningkatkan kinerja sistem,
+terutama jika laptop terasa lambat. Perlu diketahui, RAM secara teknis akan
+membersihkan dirinya saat reboot, tetapi ada beberapa cara untuk &amp;ldquo;membebaskan&amp;rdquo;
+RAM tanpa harus restart.&lt;/p></description></item><item><title>Apa Itu WinPE Sergei Strelec?</title><link>https://catatandeveloper.id/winpe-sergei-strelec/</link><pubDate>Sat, 26 Jul 2025 00:40:09 +0700</pubDate><guid>https://catatandeveloper.id/winpe-sergei-strelec/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
  &lt;img src="https://catatandeveloper.id/images/windows/strelec.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
 &lt;/div>
 
