@@ -1,58 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arduino on Catatan Developer</title><link>https://catatandeveloper.id/categories/arduino/</link><description>Recent content in Arduino on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Jul 2025 21:29:11 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Driver CP210x dan CH340 Untuk Arduino IDE</title><link>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</link><pubDate>Sun, 27 Jul 2025 21:29:11 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/installdriver.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arduino on Catatan Developer</title><link>https://catatandeveloper.id/categories/arduino/</link><description>Recent content in Arduino on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Jul 2025 21:29:11 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Driver CP210x dan CH340 Untuk Arduino IDE</title><link>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</link><pubDate>Sun, 27 Jul 2025 21:29:11 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/installdriver.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Banyak board Arduino non-resmi (clone) seperti Arduino Uno, Nano, dan ESP32 menggunakan chip USB-to-Serial seperti CH340 atau CP210x. Jika driver-nya belum terpasang, maka board tidak akan terdeteksi oleh komputer saat kamu ingin meng-upload sketch.&lt;/p>
-&lt;p>Berikut adalah panduan lengkap untuk meng-install driver CH340 dan CP210x di Windows agar Arduino IDE bisa mengenali board kamu.&lt;/p>
-&lt;h3 id="-1-cek-chip-usb-to-serial-di-board-kamu">🔌 1. Cek Chip USB-to-Serial di Board Kamu&lt;/h3>
-&lt;p>Lihat komponen kecil di dekat port USB pada board Arduino-mu. Umumnya:&lt;/p></description></item><item><title>Install Esp32/Esp8266 Di Arduino Ide</title><link>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</link><pubDate>Fri, 18 Jul 2025 21:39:08 +0700</pubDate><guid>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/esp32/installesp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;Banyak board Arduino non-resmi (clone) seperti Arduino Uno, Nano, dan ESP32 menggunakan chip USB-to-Serial seperti CH340 atau CP210x. Jika driver-nya belum terpasang, maka board tidak akan terdeteksi oleh komputer saat kamu ingin meng-upload sketch.&lt;/p&gt;
+&lt;p&gt;Berikut adalah panduan lengkap untuk meng-install driver CH340 dan CP210x di Windows agar Arduino IDE bisa mengenali board kamu.&lt;/p&gt;
+&lt;h3 id="-1-cek-chip-usb-to-serial-di-board-kamu"&gt;🔌 1. Cek Chip USB-to-Serial di Board Kamu&lt;/h3&gt;
+&lt;p&gt;Lihat komponen kecil di dekat port USB pada board Arduino-mu. Umumnya:&lt;/p&gt;</description></item><item><title>Install Esp32/Esp8266 Di Arduino Ide</title><link>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</link><pubDate>Fri, 18 Jul 2025 21:39:08 +0700</pubDate><guid>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/esp32/installesp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>ESP32/ESP8266 adalah mikrokontroler favorit para maker, pengembang IoT, dan pecinta ngoprek karena fiturnya yang kaya: WiFi, Bluetooth, banyak GPIO, ADC, dan bahkan dual-core! Tapi agar ESP32/ESP8266 bisa diprogram dengan Arduino IDE, ada beberapa langkah tambahan yang harus kamu lakukan.&lt;/p>
-&lt;p>Yuk, ikuti langkah-langkahnya di bawah ini. Mudah kok — dan kamu akan siap membuat proyek keren dalam hitungan menit! 😎&lt;/p></description></item><item><title>Cara Mengakses Button</title><link>https://catatandeveloper.id/cara-mengakses-button/</link><pubDate>Sun, 13 Apr 2025 13:14:58 +0700</pubDate><guid>https://catatandeveloper.id/cara-mengakses-button/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;ESP32/ESP8266 adalah mikrokontroler favorit para maker, pengembang IoT, dan pecinta ngoprek karena fiturnya yang kaya: WiFi, Bluetooth, banyak GPIO, ADC, dan bahkan dual-core! Tapi agar ESP32/ESP8266 bisa diprogram dengan Arduino IDE, ada beberapa langkah tambahan yang harus kamu lakukan.&lt;/p&gt;
+&lt;p&gt;Yuk, ikuti langkah-langkahnya di bawah ini. Mudah kok — dan kamu akan siap membuat proyek keren dalam hitungan menit! 😎&lt;/p&gt;</description></item><item><title>Cara Mengakses Button</title><link>https://catatandeveloper.id/cara-mengakses-button/</link><pubDate>Sun, 13 Apr 2025 13:14:58 +0700</pubDate><guid>https://catatandeveloper.id/cara-mengakses-button/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Button di micro-controller berperan sangatlah penting, dengan menggunakan button kita bisa membuat berbagai konfigurasi manual seperti start/stop, settingan parameter, bahkah kalibarasi nilai dan menu-menu menarik lainnya.&lt;/p>
-&lt;p>dalam tutorial kali ini kita akan membahas cara akses button menggunakan 2 cara yaitu pullup/pulldown resistor secara eksternal dan pullup internal dari arduino sendiri dengan sederhana.&lt;/p>
-&lt;h3 id="pull-up-resistor-eksternal">Pull-up Resistor Eksternal&lt;/h3>
-&lt;p>pullup itu berarti resistor berada pada tegangan dan pin arduino dan membuat button ketika di tekan dia bernilai LOW, sedangkan jika di lepas maka bernilai HIGH
-&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/btn-resistor-pullup.png" alt="Penjelasan Gambar" style="max-width: 460px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
-&lt;/p></description></item><item><title>Memulai Arduino</title><link>https://catatandeveloper.id/memulai-arduino/</link><pubDate>Thu, 19 Dec 2024 00:54:55 +0700</pubDate><guid>https://catatandeveloper.id/memulai-arduino/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;Button di micro-controller berperan sangatlah penting, dengan menggunakan button kita bisa membuat berbagai konfigurasi manual seperti start/stop, settingan parameter, bahkah kalibarasi nilai dan menu-menu menarik lainnya.&lt;/p&gt;
+&lt;p&gt;dalam tutorial kali ini kita akan membahas cara akses button menggunakan 2 cara yaitu pullup/pulldown resistor secara eksternal dan pullup internal dari arduino sendiri dengan sederhana.&lt;/p&gt;
+&lt;h3 id="pull-up-resistor-eksternal"&gt;Pull-up Resistor Eksternal&lt;/h3&gt;
+&lt;p&gt;pullup itu berarti resistor berada pada tegangan dan pin arduino dan membuat button ketika di tekan dia bernilai LOW, sedangkan jika di lepas maka bernilai HIGH
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/btn-resistor-pullup.png" alt="Penjelasan Gambar" style="max-width: 460px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Memulai Arduino</title><link>https://catatandeveloper.id/memulai-arduino/</link><pubDate>Thu, 19 Dec 2024 00:54:55 +0700</pubDate><guid>https://catatandeveloper.id/memulai-arduino/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Sebelum kita membahas arduino ada baiknya kamu mempelajari tentang c++ &lt;a href="https://catatandeveloper.id/tutorial/c++/">disini&lt;/a> terlebih dahulu biar lebih mudah untuk memahaminya.&lt;/p>
-&lt;h3 id="arduino-ide">Arduino IDE&lt;/h3>
-&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/empty.png" alt="Penjelasan Gambar" style="max-width: 600px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;Sebelum kita membahas arduino ada baiknya kamu mempelajari tentang c++ &lt;a href="https://catatandeveloper.id/tutorial/c++/"&gt;disini&lt;/a&gt; terlebih dahulu biar lebih mudah untuk memahaminya.&lt;/p&gt;
+&lt;h3 id="arduino-ide"&gt;Arduino IDE&lt;/h3&gt;
+&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/empty.png" alt="Penjelasan Gambar" style="max-width: 600px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>pada gambar diatas bisa dilihat bahwa arduino memiliki default function setup dan loop.&lt;/p>
-&lt;ul>
-&lt;li>void setup() digunakan untuk melakukan inisialisi program seperti sensor, servo maupun komponen lain seperti lcd.&lt;/li>
-&lt;li>void loop() digunakan untuk menjalakan program terus menerus secara tak hingga, ini berarti selama arduino menyala maka program loop akan berjalan&lt;/li>
-&lt;/ul>
-&lt;h3 id="contoh-program">Contoh Program&lt;/h3>
-&lt;p>mari kita coba untuk melakukan program sederhana di arduino dengan menyalakan lampu LED yang tertanam pada arduino&lt;/p></description></item><item><title>Pengenalan Arduino</title><link>https://catatandeveloper.id/pengenalan-arduino/</link><pubDate>Tue, 17 Dec 2024 22:31:42 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-arduino/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;pada gambar diatas bisa dilihat bahwa arduino memiliki default function setup dan loop.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;void setup() digunakan untuk melakukan inisialisi program seperti sensor, servo maupun komponen lain seperti lcd.&lt;/li&gt;
+&lt;li&gt;void loop() digunakan untuk menjalakan program terus menerus secara tak hingga, ini berarti selama arduino menyala maka program loop akan berjalan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="contoh-program"&gt;Contoh Program&lt;/h3&gt;
+&lt;p&gt;mari kita coba untuk melakukan program sederhana di arduino dengan menyalakan lampu LED yang tertanam pada arduino&lt;/p&gt;</description></item><item><title>Pengenalan Arduino</title><link>https://catatandeveloper.id/pengenalan-arduino/</link><pubDate>Tue, 17 Dec 2024 22:31:42 +0700</pubDate><guid>https://catatandeveloper.id/pengenalan-arduino/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Arduino adalah sebuah platform perangkat keras dan perangkat lunak sumber terbuka yang memungkinkan Anda untuk membuat proyek elektronik dengan mudah. Platform ini dirancang agar dapat digunakan oleh para penggemar, pemula, maupun profesional untuk mengembangkan aplikasi elektronika, dari yang sederhana hingga yang lebih kompleks.&lt;/p>
-&lt;h3 id="apa-itu-arduino">Apa itu Arduino?&lt;/h3>
-&lt;p>Arduino adalah mikrokontroler atau papan sirkuit cetak (PCB) yang dapat diprogram untuk melakukan berbagai tugas, seperti mengontrol motor, membaca sensor, atau menghubungkan perangkat lain. Papan Arduino ini berfungsi sebagai &amp;ldquo;otak&amp;rdquo; dalam proyek elektronika, yang memungkinkan pengguna untuk memprogramnya untuk melakukan berbagai perintah sesuai dengan input yang diterima.&lt;/p></description></item><item><title>Cara Install Arduino IDE 2.* Pada Ubuntu</title><link>https://catatandeveloper.id/cara-install-arduino2-pada-ubuntu/</link><pubDate>Mon, 09 Dec 2024 23:10:56 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-arduino2-pada-ubuntu/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;Arduino adalah sebuah platform perangkat keras dan perangkat lunak sumber terbuka yang memungkinkan Anda untuk membuat proyek elektronik dengan mudah. Platform ini dirancang agar dapat digunakan oleh para penggemar, pemula, maupun profesional untuk mengembangkan aplikasi elektronika, dari yang sederhana hingga yang lebih kompleks.&lt;/p&gt;
+&lt;h3 id="apa-itu-arduino"&gt;Apa itu Arduino?&lt;/h3&gt;
+&lt;p&gt;Arduino adalah mikrokontroler atau papan sirkuit cetak (PCB) yang dapat diprogram untuk melakukan berbagai tugas, seperti mengontrol motor, membaca sensor, atau menghubungkan perangkat lain. Papan Arduino ini berfungsi sebagai &amp;ldquo;otak&amp;rdquo; dalam proyek elektronika, yang memungkinkan pengguna untuk memprogramnya untuk melakukan berbagai perintah sesuai dengan input yang diterima.&lt;/p&gt;</description></item><item><title>Cara Install Arduino IDE 2.* Pada Ubuntu</title><link>https://catatandeveloper.id/cara-install-arduino2-pada-ubuntu/</link><pubDate>Mon, 09 Dec 2024 23:10:56 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-arduino2-pada-ubuntu/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/arduino.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Arduino versi 2.* adalah IDE dengan versi yang sangat baik bagi pengembang elektronika, hal ini karena arduino v2 ini memiliki fitur-fitur yang sangat berguna bagi developer, berikut fitur-fitur Arduino v2 yang perlu kamu tau:&lt;/p>
-&lt;ul>
-&lt;li>Editor Modern:&lt;/li>
-&lt;/ul>
-&lt;p>Antarmuka lebih bersih, berbasis framework Eclipse Theia, dengan tema gelap/terang.&lt;/p>
-&lt;ul>
-&lt;li>Autocomplete dan IntelliSense:&lt;/li>
-&lt;/ul>
-&lt;p>Mendukung pelengkapan kode otomatis dan informasi fungsi secara langsung, kamu bisa mengaktifkanya dengan mengklik check pada Editor Quick Suggestions pada preferences&lt;/p></description></item></channel></rss>
+&lt;p&gt;Arduino versi 2.* adalah IDE dengan versi yang sangat baik bagi pengembang elektronika, hal ini karena arduino v2 ini memiliki fitur-fitur yang sangat berguna bagi developer, berikut fitur-fitur Arduino v2 yang perlu kamu tau:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Editor Modern:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Antarmuka lebih bersih, berbasis framework Eclipse Theia, dengan tema gelap/terang.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autocomplete dan IntelliSense:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mendukung pelengkapan kode otomatis dan informasi fungsi secara langsung, kamu bisa mengaktifkanya dengan mengklik check pada Editor Quick Suggestions pada preferences&lt;/p&gt;</description></item></channel></rss>

@@ -1,60 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Esp32 on Catatan Developer</title><link>https://catatandeveloper.id/tags/esp32/</link><description>Recent content in Esp32 on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Jul 2025 21:29:11 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/esp32/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Driver CP210x dan CH340 Untuk Arduino IDE</title><link>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</link><pubDate>Sun, 27 Jul 2025 21:29:11 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/arduino/installdriver.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Esp32 on Catatan Developer</title><link>https://catatandeveloper.id/tags/esp32/</link><description>Recent content in Esp32 on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Jul 2025 21:29:11 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/esp32/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Driver CP210x dan CH340 Untuk Arduino IDE</title><link>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</link><pubDate>Sun, 27 Jul 2025 21:29:11 +0700</pubDate><guid>https://catatandeveloper.id/cara-install-driver-port-untuk-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/arduino/installdriver.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Banyak board Arduino non-resmi (clone) seperti Arduino Uno, Nano, dan ESP32 menggunakan chip USB-to-Serial seperti CH340 atau CP210x. Jika driver-nya belum terpasang, maka board tidak akan terdeteksi oleh komputer saat kamu ingin meng-upload sketch.&lt;/p>
-&lt;p>Berikut adalah panduan lengkap untuk meng-install driver CH340 dan CP210x di Windows agar Arduino IDE bisa mengenali board kamu.&lt;/p>
-&lt;h3 id="-1-cek-chip-usb-to-serial-di-board-kamu">🔌 1. Cek Chip USB-to-Serial di Board Kamu&lt;/h3>
-&lt;p>Lihat komponen kecil di dekat port USB pada board Arduino-mu. Umumnya:&lt;/p></description></item><item><title>Install Esp32/Esp8266 Di Arduino Ide</title><link>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</link><pubDate>Fri, 18 Jul 2025 21:39:08 +0700</pubDate><guid>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/esp32/installesp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;Banyak board Arduino non-resmi (clone) seperti Arduino Uno, Nano, dan ESP32 menggunakan chip USB-to-Serial seperti CH340 atau CP210x. Jika driver-nya belum terpasang, maka board tidak akan terdeteksi oleh komputer saat kamu ingin meng-upload sketch.&lt;/p&gt;
+&lt;p&gt;Berikut adalah panduan lengkap untuk meng-install driver CH340 dan CP210x di Windows agar Arduino IDE bisa mengenali board kamu.&lt;/p&gt;
+&lt;h3 id="-1-cek-chip-usb-to-serial-di-board-kamu"&gt;🔌 1. Cek Chip USB-to-Serial di Board Kamu&lt;/h3&gt;
+&lt;p&gt;Lihat komponen kecil di dekat port USB pada board Arduino-mu. Umumnya:&lt;/p&gt;</description></item><item><title>Install Esp32/Esp8266 Di Arduino Ide</title><link>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</link><pubDate>Fri, 18 Jul 2025 21:39:08 +0700</pubDate><guid>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/esp32/installesp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>ESP32/ESP8266 adalah mikrokontroler favorit para maker, pengembang IoT, dan pecinta ngoprek karena fiturnya yang kaya: WiFi, Bluetooth, banyak GPIO, ADC, dan bahkan dual-core! Tapi agar ESP32/ESP8266 bisa diprogram dengan Arduino IDE, ada beberapa langkah tambahan yang harus kamu lakukan.&lt;/p>
-&lt;p>Yuk, ikuti langkah-langkahnya di bawah ini. Mudah kok — dan kamu akan siap membuat proyek keren dalam hitungan menit! 😎&lt;/p></description></item><item><title>Cara Mengakses Gps Module Neo-6m/Neo-7m Menggunakan Esp32</title><link>https://catatandeveloper.id/cara-mengakses-gps-module-neo-menggunakan-esp32/</link><pubDate>Mon, 02 Jun 2025 15:22:25 +0700</pubDate><guid>https://catatandeveloper.id/cara-mengakses-gps-module-neo-menggunakan-esp32/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/esp32/esp32-gps.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+&lt;p&gt;ESP32/ESP8266 adalah mikrokontroler favorit para maker, pengembang IoT, dan pecinta ngoprek karena fiturnya yang kaya: WiFi, Bluetooth, banyak GPIO, ADC, dan bahkan dual-core! Tapi agar ESP32/ESP8266 bisa diprogram dengan Arduino IDE, ada beberapa langkah tambahan yang harus kamu lakukan.&lt;/p&gt;
+&lt;p&gt;Yuk, ikuti langkah-langkahnya di bawah ini. Mudah kok — dan kamu akan siap membuat proyek keren dalam hitungan menit! 😎&lt;/p&gt;</description></item><item><title>Cara Mengakses Gps Module Neo-6m/Neo-7m Menggunakan Esp32</title><link>https://catatandeveloper.id/cara-mengakses-gps-module-neo-menggunakan-esp32/</link><pubDate>Mon, 02 Jun 2025 15:22:25 +0700</pubDate><guid>https://catatandeveloper.id/cara-mengakses-gps-module-neo-menggunakan-esp32/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/esp32/esp32-gps.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Modul GPS NEO-6M/NEO-7M adalah salah satu GPS receiver paling populer yang sering digunakan pada proyek Arduino atau ESP32. Dalam tutorial ini, kita akan belajar cara membaca data lokasi dari modul GPS menggunakan ESP32 dan library TinyGPS++.&lt;/p>
-&lt;h3 id="perlengkapan-yang-dibutuhkan">Perlengkapan yang Dibutuhkan&lt;/h3>
-&lt;ul>
-&lt;li>ESP32 Board (contoh: ESP32 DevKit v1)&lt;/li>
-&lt;li>Modul GPS NEO-6M&lt;/li>
-&lt;li>Kabel jumper&lt;/li>
-&lt;li>Software Arduino IDE&lt;/li>
-&lt;/ul>
-&lt;h3 id="wiring-esp32-ke-modul-gps-neo">Wiring ESP32 ke Modul GPS NEO&lt;/h3>
-&lt;p>Hubungkan pin modul GPS ke ESP32 sebagai berikut:
-&lt;div class="table-responsive">
- &lt;table>
+&lt;p&gt;Modul GPS NEO-6M/NEO-7M adalah salah satu GPS receiver paling populer yang sering digunakan pada proyek Arduino atau ESP32. Dalam tutorial ini, kita akan belajar cara membaca data lokasi dari modul GPS menggunakan ESP32 dan library TinyGPS++.&lt;/p&gt;
+&lt;h3 id="perlengkapan-yang-dibutuhkan"&gt;Perlengkapan yang Dibutuhkan&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP32 Board (contoh: ESP32 DevKit v1)&lt;/li&gt;
+&lt;li&gt;Modul GPS NEO-6M&lt;/li&gt;
+&lt;li&gt;Kabel jumper&lt;/li&gt;
+&lt;li&gt;Software Arduino IDE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="wiring-esp32-ke-modul-gps-neo"&gt;Wiring ESP32 ke Modul GPS NEO&lt;/h3&gt;
+&lt;p&gt;Hubungkan pin modul GPS ke ESP32 sebagai berikut:
+&lt;div class="table-responsive"&gt;
+ &lt;table&gt;
  
-&lt;tr>
- &lt;th>GPS&lt;/th>
- &lt;th>ESP32&lt;/th>
-&lt;/tr>
-&lt;tr>
- &lt;td>VCC&lt;/td>
- &lt;td>3.3v&lt;/td>
-&lt;/tr>
-&lt;tr>
- &lt;td>GND&lt;/td>
- &lt;td>GND&lt;/td>
-&lt;/tr>
-&lt;tr>
- &lt;td>TX&lt;/td>
- &lt;td>GPIO16 (RXD2)&lt;/td>
-&lt;/tr>
-&lt;tr>
- &lt;td>RX&lt;/td>
- &lt;td>GPIO17 (TXD2)&lt;/td>
-&lt;/tr>
+&lt;tr&gt;
+ &lt;th&gt;GPS&lt;/th&gt;
+ &lt;th&gt;ESP32&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+ &lt;td&gt;VCC&lt;/td&gt;
+ &lt;td&gt;3.3v&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+ &lt;td&gt;GND&lt;/td&gt;
+ &lt;td&gt;GND&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+ &lt;td&gt;TX&lt;/td&gt;
+ &lt;td&gt;GPIO16 (RXD2)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+ &lt;td&gt;RX&lt;/td&gt;
+ &lt;td&gt;GPIO17 (TXD2)&lt;/td&gt;
+&lt;/tr&gt;
 
 
- &lt;/table>
-&lt;/div>
-&lt;/p></description></item><item><title>OTA, Update Firmware Otomatis Lewat Wifi Dengan Mudah</title><link>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</link><pubDate>Sun, 01 Jun 2025 03:24:26 +0700</pubDate><guid>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/esp32/esp32.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+ &lt;/table&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>OTA, Update Firmware Otomatis Lewat Wifi Dengan Mudah</title><link>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</link><pubDate>Sun, 01 Jun 2025 03:24:26 +0700</pubDate><guid>https://catatandeveloper.id/ota-update-firmware-otomatis-lewat-wifi-dengan-mudah/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/esp32/esp32.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Pernah kebayang gimana caranya update firmware ESP32 tanpa harus colok kabel USB lagi? 🤯
-Yup, sekarang kamu bisa update firmware secara OTA (Over-the-Air) lewat jaringan WiFi. Cocok banget buat proyek IoT yang susah dijangkau atau sudah dipasang permanen di lapangan.&lt;/p>
-&lt;p>Di artikel ini, aku akan membagikan program sederhana yang memungkinkan perangkat ESP32 kamu mengecek versi firmware terbaru dan memperbaruinya secara otomatis jika diperlukan.&lt;/p></description></item></channel></rss>
+&lt;p&gt;Pernah kebayang gimana caranya update firmware ESP32 tanpa harus colok kabel USB lagi? 🤯
+Yup, sekarang kamu bisa update firmware secara OTA (Over-the-Air) lewat jaringan WiFi. Cocok banget buat proyek IoT yang susah dijangkau atau sudah dipasang permanen di lapangan.&lt;/p&gt;
+&lt;p&gt;Di artikel ini, aku akan membagikan program sederhana yang memungkinkan perangkat ESP32 kamu mengecek versi firmware terbaru dan memperbaruinya secara otomatis jika diperlukan.&lt;/p&gt;</description></item></channel></rss>

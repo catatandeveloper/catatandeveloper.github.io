@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel on Catatan Developer</title><link>https://catatandeveloper.id/tags/laravel/</link><description>Recent content in Laravel on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 13 May 2025 00:11:23 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/laravel/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Gampang Auth Laravel</title><link>https://catatandeveloper.id/cara-gampang-auth-laravel/</link><pubDate>Tue, 13 May 2025 00:11:23 +0700</pubDate><guid>https://catatandeveloper.id/cara-gampang-auth-laravel/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" >
- &lt;img src="https://catatandeveloper.id/images/laravel/laravel.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/>
-&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel on Catatan Developer</title><link>https://catatandeveloper.id/tags/laravel/</link><description>Recent content in Laravel on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 13 May 2025 00:11:23 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/laravel/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Gampang Auth Laravel</title><link>https://catatandeveloper.id/cara-gampang-auth-laravel/</link><pubDate>Tue, 13 May 2025 00:11:23 +0700</pubDate><guid>https://catatandeveloper.id/cara-gampang-auth-laravel/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/laravel/laravel.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
 
-&lt;p>Autentikasi adalah salah satu fitur paling penting dalam aplikasi web modern. Laravel, sebagai salah satu framework PHP terbaik, menyediakan sistem autentikasi bawaan yang sangat powerful dan mudah digunakan.&lt;/p>
-&lt;p>Pada blog kali ini, kita akan membahas:&lt;/p>
-&lt;ul>
-&lt;li>Apa itu Laravel Auth&lt;/li>
-&lt;li>Instalasi Laravel&lt;/li>
-&lt;li>Cara mengaktifkan Auth di Laravel&lt;/li>
-&lt;li>Menyesuaikan tampilan dan fitur login&lt;/li>
-&lt;/ul>
-&lt;h3 id="apa-itu-laravel-auth">Apa Itu Laravel Auth?&lt;/h3>
-&lt;p>Laravel Auth adalah sistem autentikasi default yang disediakan Laravel untuk menangani:&lt;/p></description></item></channel></rss>
+&lt;p&gt;Autentikasi adalah salah satu fitur paling penting dalam aplikasi web modern. Laravel, sebagai salah satu framework PHP terbaik, menyediakan sistem autentikasi bawaan yang sangat powerful dan mudah digunakan.&lt;/p&gt;
+&lt;p&gt;Pada blog kali ini, kita akan membahas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apa itu Laravel Auth&lt;/li&gt;
+&lt;li&gt;Instalasi Laravel&lt;/li&gt;
+&lt;li&gt;Cara mengaktifkan Auth di Laravel&lt;/li&gt;
+&lt;li&gt;Menyesuaikan tampilan dan fitur login&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="apa-itu-laravel-auth"&gt;Apa Itu Laravel Auth?&lt;/h3&gt;
+&lt;p&gt;Laravel Auth adalah sistem autentikasi default yang disediakan Laravel untuk menangani:&lt;/p&gt;</description></item></channel></rss>
