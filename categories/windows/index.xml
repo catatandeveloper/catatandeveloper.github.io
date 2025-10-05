@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/categories/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 13 Sep 2025 19:41:16 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Apa Itu TPM 2.0? Dan Apa Fungsinya?</title><link>https://catatandeveloper.id/trusted-platform-module/</link><pubDate>Sat, 13 Sep 2025 19:41:16 +0700</pubDate><guid>https://catatandeveloper.id/trusted-platform-module/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Catatan Developer</title><link>https://catatandeveloper.id/categories/windows/</link><description>Recent content in Windows on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Oct 2025 16:50:36 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Wi-Fi 4, 5 Dan 6. Bedanya Apa Sih??</title><link>https://catatandeveloper.id/penjelasan-wifi/</link><pubDate>Sun, 05 Oct 2025 16:50:36 +0700</pubDate><guid>https://catatandeveloper.id/penjelasan-wifi/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/windows/wifi.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Wi-Fi adalah teknologi jaringan nirkabel (tanpa kabel) yang digunakan untuk menghubungkan perangkat seperti laptop, smartphone, atau komputer ke internet menggunakan gelombang radio.
+Wi-Fi bekerja seperti “jembatan tanpa kabel” antara perangkat dan router (alat pemancar internet).
+Router menerima sinyal internet dari modem, lalu memancarkannya melalui gelombang radio agar perangkat bisa terhubung tanpa perlu kabel LAN.&lt;/p&gt;
+&lt;h3 id="nama-dan-standar-teknis"&gt;&lt;strong&gt;Nama dan Standar Teknis&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;div class="table-responsive"&gt;
+ &lt;table&gt;
+ 
+&lt;tr&gt;
+ &lt;th&gt;Generasi&lt;/th&gt;
+ &lt;th&gt;Nama Teknis&lt;/th&gt;
+ &lt;th&gt;Tahun Release&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+ &lt;td&gt;Wi-Fi 4&lt;/td&gt;
+ &lt;td&gt;802.11n&lt;/td&gt;
+ &lt;td&gt;2009&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+ &lt;td&gt;Wi-Fi 5&lt;/td&gt;
+ &lt;td&gt;802.11ac&lt;/td&gt;
+ &lt;td&gt;2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+ &lt;td&gt;Wi-Fi 6&lt;/td&gt;
+ &lt;td&gt;802.11ax&lt;/td&gt;
+ &lt;td&gt;2019&lt;/td&gt;
+&lt;/tr&gt;
+
+ &lt;/table&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;</description></item><item><title>Apa Itu TPM 2.0? Dan Apa Fungsinya?</title><link>https://catatandeveloper.id/trusted-platform-module/</link><pubDate>Sat, 13 Sep 2025 19:41:16 +0700</pubDate><guid>https://catatandeveloper.id/trusted-platform-module/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
  &lt;img src="https://catatandeveloper.id/images/windows/tpm.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
 &lt;/div&gt;
 
