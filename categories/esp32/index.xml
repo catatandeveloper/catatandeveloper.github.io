@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Esp32 on Catatan Developer</title><link>https://catatandeveloper.id/categories/esp32/</link><description>Recent content in Esp32 on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Jul 2025 21:39:08 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/esp32/index.xml" rel="self" type="application/rss+xml"/><item><title>Install Esp32/Esp8266 Di Arduino Ide</title><link>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</link><pubDate>Fri, 18 Jul 2025 21:39:08 +0700</pubDate><guid>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Esp32 on Catatan Developer</title><link>https://catatandeveloper.id/categories/esp32/</link><description>Recent content in Esp32 on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 11 Oct 2025 03:20:34 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/categories/esp32/index.xml" rel="self" type="application/rss+xml"/><item><title>Mengirim Data Spreadsheet Dengan Esp32</title><link>https://catatandeveloper.id/mengirim-data-spreadsheet-dengan-esp32/</link><pubDate>Sat, 11 Oct 2025 03:20:34 +0700</pubDate><guid>https://catatandeveloper.id/mengirim-data-spreadsheet-dengan-esp32/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/esp32/ds.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Pernah ingin menyimpan data sensor langsung ke spreadsheet tanpa harus bikin server dulu? Ternyata, kamu bisa melakukannya hanya dengan ESP32 dan Google Apps Script.
+Di artikel ini, kita akan membahas cara menghubungkan ESP32 ke Google Spreadsheet secara langsung lewat HTTP.&lt;/p&gt;
+&lt;h3 id="persiapan-alat--software"&gt;Persiapan Alat &amp;amp; Software&lt;/h3&gt;
+&lt;p&gt;Hardware:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP32 (WROOM atau DevKit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Software:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino IDE&lt;/li&gt;
+&lt;li&gt;Akun Google dengan akses ke Google Sheets&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide"&gt;install esp32 dengan arduino IDE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="akun-google-service"&gt;Akun Google Service&lt;/h1&gt;
+&lt;p&gt;Untuk melakukan pengiriman ke spreadsheet dengan baik dan aman, kamu perlu membuat aku google service nanti service ini yang akan melakukan handle untuk meneruskan data ke spreadsheet. Kamu bisa mempelajari secara mendalam di artikel ini &lt;a href="https://cloud.google.com/iam/docs/service-account-overview"&gt;Service Account&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Install Esp32/Esp8266 Di Arduino Ide</title><link>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</link><pubDate>Fri, 18 Jul 2025 21:39:08 +0700</pubDate><guid>https://catatandeveloper.id/install-esp32-esp8266-di-arduino-ide/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
  &lt;img src="https://catatandeveloper.id/images/esp32/installesp.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
 &lt;/div&gt;
 
