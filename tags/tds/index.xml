@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tds on Catatan Developer</title><link>https://catatandeveloper.id/tags/tds/</link><description>Recent content in Tds on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 16 Dec 2025 19:36:44 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/tds/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Akses Sensor Tds Esp32</title><link>https://catatandeveloper.id/cara-akses-sensor-tds-esp32/</link><pubDate>Tue, 16 Dec 2025 19:36:44 +0700</pubDate><guid>https://catatandeveloper.id/cara-akses-sensor-tds-esp32/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/esp32/tds.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Total Dissolved Solids (TDS) adalah ukuran jumlah zat terlarut (dalam ppm atau mg/L) di dalam air. Sensor TDS banyak digunakan pada sistem IoT water quality, hidroponik, akuakultur, dan monitoring air minum.&lt;/p&gt;
+&lt;h3 id="cara-kerja-sensor-tds"&gt;Cara Kerja Sensor TDS&lt;/h3&gt;
+&lt;p&gt;Sensor TDS sebenarnya tidak mengukur TDS secara langsung. Sensor ini mengukur konduktivitas listrik (EC – Electrical Conductivity) air.&lt;/p&gt;
+&lt;p&gt;Semakin banyak zat terlarut (garam, mineral, ion), maka:&lt;/p&gt;</description></item></channel></rss>
