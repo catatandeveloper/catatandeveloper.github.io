@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website on Catatan Developer</title><link>https://catatandeveloper.id/tags/website/</link><description>Recent content in Website on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 13 Jun 2025 23:57:46 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/website/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Deploy Golang Dengan Domain Di VPS</title><link>https://catatandeveloper.id/cara-deploy-golang-di-vps/</link><pubDate>Fri, 13 Jun 2025 23:57:46 +0700</pubDate><guid>https://catatandeveloper.id/cara-deploy-golang-di-vps/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website on Catatan Developer</title><link>https://catatandeveloper.id/tags/website/</link><description>Recent content in Website on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 18 Dec 2025 21:01:30 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/website/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Setup Nodejs Di Vps Vpc</title><link>https://catatandeveloper.id/cara-setup-nodejs-di-vps-vpc/</link><pubDate>Thu, 18 Dec 2025 21:01:30 +0700</pubDate><guid>https://catatandeveloper.id/cara-setup-nodejs-di-vps-vpc/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/node/nodejs.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Pada tahap deployment aplikasi, menggunakan VPS atau VPC adalah pilihan umum karena memberikan kontrol penuh terhadap sistem operasi, konfigurasi jaringan, dan resource server. Salah satu stack yang paling sering digunakan adalah Node.js karena ringan, cepat, dan cocok untuk aplikasi web maupun realtime.&lt;/p&gt;
+&lt;h3 id="kenapa-tidak-langsung-shared-hosting"&gt;Kenapa Tidak Langsung Shared Hosting?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Shared hosting memiliki keterbatasan seperti:&lt;/li&gt;
+&lt;li&gt;Tidak bisa memilih versi Node.js dengan bebas&lt;/li&gt;
+&lt;li&gt;Tidak mendukung process manager&lt;/li&gt;
+&lt;li&gt;Sulit melakukan scaling dan monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dengan VPS/VPC, kita bisa:&lt;/p&gt;</description></item><item><title>Cara Deploy Golang Dengan Domain Di VPS</title><link>https://catatandeveloper.id/cara-deploy-golang-di-vps/</link><pubDate>Fri, 13 Jun 2025 23:57:46 +0700</pubDate><guid>https://catatandeveloper.id/cara-deploy-golang-di-vps/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
  &lt;img src="https://catatandeveloper.id/images/go/go.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
 &lt;/div&gt;
 
