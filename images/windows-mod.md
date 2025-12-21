@@ -5,6 +5,7 @@ title = 'Windows Mod, Bahaya atau Solusi?'
 author = 'Dhoifuddaffa'
 description = "Mengenal Windows modded, katanya jadi solusi komputer/laptop kentang"
 keywords = ["windows, mod, atlasos, ghostspectre, atlasos, gaming, ringan"]
+comments = true
 
 tags = ["windows"]
 categories = ["windows"]
