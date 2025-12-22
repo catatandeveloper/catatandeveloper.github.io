@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Catatan Developer</title><link>https://catatandeveloper.id/tags/git/</link><description>Recent content in Git on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Apr 2025 09:28:08 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Memulai Git</title><link>https://catatandeveloper.id/memulai-git/</link><pubDate>Sat, 05 Apr 2025 09:28:08 +0700</pubDate><guid>https://catatandeveloper.id/memulai-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Catatan Developer</title><link>https://catatandeveloper.id/tags/git/</link><description>Recent content in Git on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 22 Dec 2025 23:48:40 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Kontribusi Ke Repository Github Public</title><link>https://catatandeveloper.id/cara-kontribusi-ke-repository-github-public/</link><pubDate>Mon, 22 Dec 2025 23:48:40 +0700</pubDate><guid>https://catatandeveloper.id/cara-kontribusi-ke-repository-github-public/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/git/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;GitHub adalah platform kolaborasi terbesar bagi developer di seluruh dunia. Banyak project bersifat public, artinya siapa pun bisa melihat source code-nya. Namun, melihat dan berkontribusi adalah dua hal yang berbeda.&lt;/p&gt;
+&lt;p&gt;Masih banyak developer yang bingung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kapan harus fork, kapan cukup clone&lt;/li&gt;
+&lt;li&gt;Apa beda contributor dan non-contributor&lt;/li&gt;
+&lt;li&gt;Kenapa tidak bisa push walaupun repo public&lt;/li&gt;
+&lt;li&gt;Bagaimana alur kontribusi yang benar dan aman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Artikel ini akan membahas secara lengkap dan sistematis cara melakukan kontribusi ke repository GitHub public, baik sebagai contributor (collaborator) maupun non-contributor, sesuai praktik yang benar di dunia profesional dan open-source.&lt;/p&gt;</description></item><item><title>Memulai Git</title><link>https://catatandeveloper.id/memulai-git/</link><pubDate>Sat, 05 Apr 2025 09:28:08 +0700</pubDate><guid>https://catatandeveloper.id/memulai-git/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
  &lt;img src="https://catatandeveloper.id/images/git/git.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
 &lt;/div&gt;
 
