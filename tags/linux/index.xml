@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Catatan Developer</title><link>https://catatandeveloper.id/tags/linux/</link><description>Recent content in Linux on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 17 Jan 2025 22:02:33 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Memahami Directory Linux</title><link>https://catatandeveloper.id/memahami-directory-linux/</link><pubDate>Fri, 17 Jan 2025 22:02:33 +0700</pubDate><guid>https://catatandeveloper.id/memahami-directory-linux/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Catatan Developer</title><link>https://catatandeveloper.id/tags/linux/</link><description>Recent content in Linux on Catatan Developer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 22:40:31 +0700</lastBuildDate><atom:link href="https://catatandeveloper.id/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Setting DNS Di Komputer Linux</title><link>https://catatandeveloper.id/cara-setting-dns-di-komputer-linux/</link><pubDate>Thu, 01 Jan 2026 22:40:31 +0700</pubDate><guid>https://catatandeveloper.id/cara-setting-dns-di-komputer-linux/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
+ &lt;img src="https://catatandeveloper.id/images/linux/dns.jpg" alt="Penjelasan Gambar" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Saat mengakses internet, pernah mengalami kondisi seperti ini?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Website tertentu tidak bisa dibuka di WiFi, tapi lancar saat pakai hotspot HP&lt;/li&gt;
+&lt;li&gt;Domain baru (misalnya GitHub Pages + custom domain) tidak resolve&lt;/li&gt;
+&lt;li&gt;ping domain.com → Name or service not known&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Banyak orang mengira masalahnya ada di server website, padahal sering kali penyebab utamanya adalah DNS.&lt;/p&gt;
+&lt;p&gt;Artikel ini akan membahas:&lt;/p&gt;</description></item><item><title>Memahami Directory Linux</title><link>https://catatandeveloper.id/memahami-directory-linux/</link><pubDate>Fri, 17 Jan 2025 22:02:33 +0700</pubDate><guid>https://catatandeveloper.id/memahami-directory-linux/</guid><description>&lt;div class="image-container loading-image size2" style="display: flex; justify-content: center; align-items: center;" &gt;
  &lt;img src="https://catatandeveloper.id/images/linux/directory.jpg" alt="Directory linux" style="max-width: 900px; width: 100%; height: auto;" class="my-3 rounded" onload="image_loaded(this)"/&gt;
 &lt;/div&gt;
 
