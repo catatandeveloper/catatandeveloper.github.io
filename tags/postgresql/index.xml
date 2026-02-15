@@ -6,5 +6,5 @@
 &lt;h3 id="instalasi"&gt;Instalasi&lt;/h3&gt;
 &lt;h5 id="perbarui-sistem-ubuntu"&gt;perbarui sistem ubuntu&lt;/h5&gt;
 &lt;p&gt;Sebelum menginstal perangkat lunak baru, pastikan sistem kamu diperbarui. Buka terminal dan jalankan perintah berikut untuk memperbarui sistem kamu.
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ sudo apt update
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ sudo apt update
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ sudo apt upgrade&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description></item></channel></rss>
